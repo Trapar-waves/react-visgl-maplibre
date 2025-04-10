@@ -20,7 +20,8 @@
     "fiber",
     "maplibre",
     "three",
-    "visgl"
+    "vis.gl",
+    "deck.gl"
   ],
   "publishConfig": {
     "access": "public"
