@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPackageNames": ["/deck.gl/","/luma.gl/"],
+      "enabled": false
+    }
+  ]
+}
