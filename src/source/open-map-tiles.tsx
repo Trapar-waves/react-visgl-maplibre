@@ -1,6 +1,6 @@
 import { Layer, Source } from "react-map-gl/maplibre";
 
-const MAPTILER_KEY = "YbCPLULzWdf1NplssEIc";
+const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
 const paint: any = {
   "fill-extrusion-color": [
     "interpolate",
