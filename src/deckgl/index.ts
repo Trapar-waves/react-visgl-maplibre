@@ -46,13 +46,18 @@ function getTooltip({ object }: PickingInfo) {
     ${count} Accidents`;
 }
 const DATA_URL = "/heatmap-data.csv";
+const data = load(DATA_URL, CSVLoader).then((res) => {
+  const resData = res.data
+    .map((d: any) => (Number.isFinite(d.lng) ? [d.lng, d.lat] : null))
+    .filter(Boolean) as Array<[number, number]>;
+  resData.push(...(Array.from({ length: 10000 }).map(() => [11.39085 + (Math.random() - 0.5), 47.27574 + (Math.random() - 0.5)]) as Array<[number, number]>));
+  return resData;
+});
 export const heatmapLayer = new HexagonLayer<DataPoint>({
   id: "i-heatmap",
   colorRange,
   coverage: 1,
-  data: load(DATA_URL, CSVLoader).then(res => res.data
-    .map((d: any) => (Number.isFinite(d.lng) ? [d.lng, d.lat] : null))
-    .filter(Boolean)),
+  data,
   elevationRange: [0, 3000],
   elevationScale: 50,
   extruded: true,

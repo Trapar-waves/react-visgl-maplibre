@@ -8,6 +8,7 @@ import Map from "react-map-gl/maplibre";
 import { Canvas } from "react-three-map/maplibre";
 import { LineMaterial, LineSegments2, LineSegmentsGeometry } from "three-stdlib";
 import { deckOverlay, heatmapLayer } from "./deckgl";
+import { CommonSource } from "./source";
 
 extend({ LineSegmentsGeometry, LineMaterial, LineSegments2 });
 
@@ -20,15 +21,12 @@ declare module "@react-three/fiber" {
 }
 
 const INITIAL_VIEW_STATE: MapViewState = {
-  longitude: -1.415727,
-  latitude: 52.232395,
-  zoom: 6.6,
-  minZoom: 5,
-  maxZoom: 15,
-  pitch: 40.5,
-  bearing: -27,
+  latitude: 47.27574,
+  longitude: 11.39085,
+  zoom: 12,
+  pitch: 70,
 };
-
+const terrain = { source: "terrain-dem", exaggeration: 1.5 };
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
   const mapRef = useRef<MapRef>(null!);
@@ -48,7 +46,9 @@ function App() {
         initialViewState={INITIAL_VIEW_STATE}
         mapStyle="https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json"
         onLoad={onLoad}
+        terrain={terrain}
       >
+        <CommonSource />
         <Stats className="stats" parent={ref} />
         <Canvas latitude={INITIAL_VIEW_STATE.latitude} longitude={INITIAL_VIEW_STATE.longitude} id="map-three">
           <hemisphereLight
