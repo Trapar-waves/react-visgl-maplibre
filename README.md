@@ -5,20 +5,18 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-visgl-maplibre)
 
-> A React-based visualization library integrating Deck.gl, MapLibre, and Three.js for advanced geospatial and 3D rendering.
+> A React-based library that integrates MapLibre, Deck.gl, and Three.js for advanced geospatial data visualization.
 
 ## ✨ Features
 
-- Geospatial Visualization: Built using Deck.gl and MapLibre for advanced geospatial data rendering and map-based visualizations.
-- 3D Graphics Rendering: Leverages Three.js and `@react-three/fiber` for high-performance 3D graphics rendering within a React environment.
-- React Integration: Combines Deck.gl, MapLibre, and Three.js with React components for seamless integration into modern web applications.
-- Data Aggregation Layers: Utilizes Deck.gl’s aggregation layers for efficient handling and visualization of large datasets (e.g., heatmaps, hexbins).
-- Customizable UI Components: Likely integrates `@react-three/drei` for pre-built, reusable 3D utilities and helpers.
-- Type Safety: Employs TypeScript (`@types/react`, `@types/three`) to enhance code reliability and developer experience.
-- Utility-First Styling: Employs Tailwind CSS for flexible and rapid styling, ensuring a consistent and responsive design system.
-- Fast Development Workflow: Utilizes Rsbuild for optimized builds and a fast development cycle, including hot module replacement.
-- Asynchronous Data Loading: Includes loaders like `@loaders.gl/core` and `@loaders.gl/tiles` for handling asynchronous data fetching and processing.
-- Focus on Code Quality: Includes ESLint configurations (`@antfu/eslint-config`) for maintaining clean and consistent code standards.
+* **React Integration:** Built using React for a component-driven architecture, allowing seamless integration into React applications.
+* **Geospatial Data Visualization:** Utilizes Deck.gl and MapLibre to provide rich geospatial data visualization capabilities.
+* **3D Rendering with Three.js:** Employs `@react-three/fiber` and `three` to enable 3D rendering and interactive 3D experiences within the map interface.
+* **Layer-Based Design:** Offers support for multiple layers (via Deck.gl) such as aggregation layers, geo-layers, and custom Mapbox-compatible layers.
+* **Data Loading & Parsing:** Includes loaders like `@loaders.gl/core` and `@loaders.gl/csv` to handle various data formats (CSV, 3D Tiles, etc.), making it easier to work with large datasets.
+* **Tailwind CSS Styling:** Employs Tailwind CSS for utility-first styling, offering flexibility in UI customization.
+* **Modern Build Workflow:** Built with Rsbuild for optimized development builds and hot module replacement, ensuring a fast and efficient development cycle.
+* **Type Safety:** Leverages TypeScript (`@types/react`, `@types/three`) to enhance code reliability and developer experience.
 
 ## 🚀 Getting Started
 
@@ -26,9 +24,9 @@ Follow these instructions to get the project running locally.
 
 ### Prerequisites
 
-- Ensure you have the following installed:
-    - Node.js (>= 18.x recommended)
-    - Package manager (npm, yarn, or pnpm)
+* Ensure you have the following installed:
+    * Node.js (>= 18.x recommended)
+    * Package manager (npm, yarn, or pnpm)
     ```bash
     node -v
     npm -v # or yarn -v or pnpm -v
@@ -53,15 +51,13 @@ Follow these instructions to get the project running locally.
 
 ## 🛠️ Usage
 
-Explain how to run and use the project after installation.
-
 ### Available Scripts
 
 Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
 
-- `dev`: Starts the development server with automatic browser opening (`rsbuild dev --open`).
-- `build`: Creates a production-ready build (`rsbuild build`).
-- `preview`: Previews the production build locally (`rsbuild preview`).
+* `dev`: Starts the development server with hot-reloading enabled (powered by Rsbuild).
+* `build`: Creates a production-ready build.
+* `preview`: Launches a local server to preview the production build.
 
 Example:
 ```bash
@@ -72,32 +68,33 @@ npm run dev
 npm run build 
 ```
 
-💻 Tech Stack
+## 💻 Tech Stack
+
 Key technologies used in this project include:
 
-* Framework/Library: React
-* UI Toolkit/Styling: Tailwind CSS
-* 3D Rendering: `Three.js`, `@react-three/fiber`, `@react-three/drei`
-* Geospatial Visualization: `Deck.gl`, `MapLibre`
-* State Management: Likely managed through React state or context.
-* Build Tool: Rsbuild
-* Language: TypeScript 
+* **Framework/Library:** React
+* **UI Toolkit/Styling:** Tailwind CSS
+* **3D Visualization:** Three.js, Deck.gl, MapLibre
+* **Build Tool:** Rsbuild
+* **Language:** TypeScript
 
-See the package.json for a full list of dependencies.
+See the [package.json](package.json) for a full list of dependencies.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-📄 License
+## 📄 License
 
-Distributed under the MIT License. See LICENSE file for more information.
+Distributed under the **MIT** License. See `LICENSE` file for more information.
 
-👤 Author
-* Rikka (admin@rikka.cc)
-* GitHub: @Muromi-Rikka
+## 👤 Author
 
-🔗 Links
-* Repository: https://github.com/Trapar-waves/react-visgl-maplibre
-* Homepage: https://github.com/Trapar-waves/react-visgl-maplibre
-* Issues: https://github.com/Trapar-waves/react-visgl-maplibre/issues
+* **Rikka** ([admin@rikka.cc](mailto:admin@rikka.cc))
+* GitHub Profile: [@Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 🔗 Links
+
+* **Repository:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+* **Homepage:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+* **Issues:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)
