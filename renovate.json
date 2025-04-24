@@ -6,7 +6,7 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchPackageNames": ["/deck.gl/","/luma.gl/"],
+      "matchPackageNames": [],
       "enabled": false
     }
   ]
