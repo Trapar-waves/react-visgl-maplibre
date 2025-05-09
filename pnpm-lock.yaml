@@ -61,10 +61,10 @@ importers:
         version: 19.1.0(react@19.1.0)
       react-map-gl:
         specifier: ^8.0.4
-        version: 8.0.4(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-three-map:
         specifier: 1.0.0
-        version: 1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0)
+        version: 1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0)
       three:
         specifier: ^0.176.0
         version: 0.176.0
@@ -106,8 +106,8 @@ importers:
         specifier: ^9.26.0
         version: 9.26.0(jiti@2.4.2)
       mapbox-gl:
-        specifier: ^3.11.1
-        version: 3.11.1
+        specifier: ^3.12.0
+        version: 3.12.0
       tailwindcss:
         specifier: ^4.1.5
         version: 4.1.5
@@ -2526,8 +2526,8 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
-  mapbox-gl@3.11.1:
-    resolution: {integrity: sha512-OcXSBQU+q50YH7zVzsfOgCMSgYD1tyN3kObwsxnLEBOeceIFg46Yp+/I2AUhIGsq8VufgfeGzWKipPow/M7gww==}
+  mapbox-gl@3.12.0:
+    resolution: {integrity: sha512-DV6TRr+xoPrLSKuGiUcbyLVkoLdNaNNpn6O7+ZC27yQH7BOOIF7l6JKbTCMhfMJuZBVJfL8YRJjlMJ6MZCTggA==}
 
   maplibre-gl@5.5.0:
     resolution: {integrity: sha512-p8AOPuzzqn1ZA9gcXxKw0IED715we/2Owa/YUr6PANmgMvNMe/JG+V/C1hRra43Wm62Biz+Aa8AgbOLJimA8tA==}
@@ -2540,6 +2540,9 @@ packages:
     resolution: {integrity: sha512-1BEXAU2euRCG3xwgLVT1y0xbJEld1XOrmRJpUwRCcy7rxhSCwMrmEu9LXoPhHSCJG41V7YcQ2mjKRr5BA3ITIA==}
     engines: {node: '>= 18'}
     hasBin: true
+
+  martinez-polygon-clipping@0.7.4:
+    resolution: {integrity: sha512-jBEwrKtA0jTagUZj2bnmb4Yg2s4KnJGRePStgI7bAVjtcipKiF39R4LZ2V/UT61jMYWrTcBhPazexeqd6JAVtw==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -3067,6 +3070,9 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
+  robust-predicates@2.0.4:
+    resolution: {integrity: sha512-l4NwboJM74Ilm4VKfbAtFeGq7aEjWL+5kVFcmgFA2MrdnQWx9iE/tUGvxY5HyMI7o/WpSIUFLbC5fbeaHgSCYg==}
+
   robust-predicates@3.0.2:
     resolution: {integrity: sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==}
 
@@ -3191,6 +3197,9 @@ packages:
   splaytree-ts@1.0.2:
     resolution: {integrity: sha512-0kGecIZNIReCSiznK3uheYB8sbstLjCZLiwcQwbmLhgHJj2gz6OnSPkVzJQCMnmEz1BQ4gPK59ylhBoEWOhGNA==}
 
+  splaytree@0.1.4:
+    resolution: {integrity: sha512-D50hKrjZgBzqD3FT2Ek53f2dcDLAQT8SSGrzj3vidNH5ISRgceeGVJ2dQIthKOuayqFXfFjXheHNo4bbt9LhRQ==}
+
   split-string@3.1.0:
     resolution: {integrity: sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==}
     engines: {node: '>=0.10.0'}
@@ -3295,6 +3304,9 @@ packages:
   tinyglobby@0.2.13:
     resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
     engines: {node: '>=12.0.0'}
+
+  tinyqueue@1.2.3:
+    resolution: {integrity: sha512-Qz9RgWuO9l8lT+Y9xvbzhPT2efIUIFd69N7eF7tJ9lnQl0iLj1M7peK7IoUGZL9DJHw9XftqLreccfxcQgYLxA==}
 
   tinyqueue@2.0.3:
     resolution: {integrity: sha512-ppJZNDuKGgxzkHihX8v9v9G5f+18gzaTfrukGrq6ueg0lmH4nqVnA2IPG0AEH3jKEk2GRJCUhDoqpoiw3PHLBA==}
@@ -5139,12 +5151,12 @@ snapshots:
     dependencies:
       '@vaadin/vaadin-development-mode-detector': 2.0.7
 
-  '@vis.gl/react-mapbox@8.0.4(mapbox-gl@3.11.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@vis.gl/react-mapbox@8.0.4(mapbox-gl@3.12.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
-      mapbox-gl: 3.11.1
+      mapbox-gl: 3.12.0
 
   '@vis.gl/react-maplibre@8.0.4(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
@@ -6355,7 +6367,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  mapbox-gl@3.11.1:
+  mapbox-gl@3.12.0:
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.2
       '@mapbox/mapbox-gl-supported': 3.0.0
@@ -6377,6 +6389,7 @@ snapshots:
       gl-matrix: 3.4.3
       grid-index: 1.1.0
       kdbush: 4.0.2
+      martinez-polygon-clipping: 0.7.4
       murmurhash-js: 1.0.0
       pbf: 3.3.0
       potpack: 2.0.0
@@ -6418,6 +6431,12 @@ snapshots:
   markdown-table@3.0.4: {}
 
   marked@15.0.11: {}
+
+  martinez-polygon-clipping@0.7.4:
+    dependencies:
+      robust-predicates: 2.0.4
+      splaytree: 0.1.4
+      tinyqueue: 1.2.3
 
   math-intrinsics@1.1.0: {}
 
@@ -7000,14 +7019,14 @@ snapshots:
       react: 19.1.0
       scheduler: 0.26.0
 
-  react-map-gl@8.0.4(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@vis.gl/react-mapbox': 8.0.4(mapbox-gl@3.11.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@vis.gl/react-mapbox': 8.0.4(mapbox-gl@3.12.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@vis.gl/react-maplibre': 8.0.4(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
-      mapbox-gl: 3.11.1
+      mapbox-gl: 3.12.0
       maplibre-gl: 5.5.0
 
   react-reconciler@0.31.0(react@19.1.0):
@@ -7017,14 +7036,14 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-three-map@1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0):
+  react-three-map@1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0):
     dependencies:
       '@react-three/fiber': 9.1.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
       react: 19.1.0
-      react-map-gl: 8.0.4(mapbox-gl@3.11.1)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-map-gl: 8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       three: 0.176.0
     optionalDependencies:
-      mapbox-gl: 3.11.1
+      mapbox-gl: 3.12.0
       maplibre-gl: 5.5.0
 
   react-use-measure@2.1.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
@@ -7082,6 +7101,8 @@ snapshots:
       signal-exit: 4.1.0
 
   reusify@1.1.0: {}
+
+  robust-predicates@2.0.4: {}
 
   robust-predicates@3.0.2: {}
 
@@ -7225,6 +7246,8 @@ snapshots:
 
   splaytree-ts@1.0.2: {}
 
+  splaytree@0.1.4: {}
+
   split-string@3.1.0:
     dependencies:
       extend-shallow: 3.0.2
@@ -7329,6 +7352,8 @@ snapshots:
     dependencies:
       fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
+
+  tinyqueue@1.2.3: {}
 
   tinyqueue@2.0.3: {}
 
