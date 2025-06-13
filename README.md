@@ -73,8 +73,13 @@ npm run build
 Key technologies used in this project include:
 
 * **Framework/Library:** React
-* **UI Toolkit/Styling:** Tailwind CSS
+* **UI Toolkit:** Mantine
+* **State Management:** Zustand
+* **Data Fetching:** Tanstack Query (React Query)
+* **Table Component:** Tanstack Table
+* **Routing:** Tanstack Router
 * **3D Visualization:** Three.js, Deck.gl, MapLibre
+* **Styling:** Tailwind CSS
 * **Build Tool:** Rsbuild
 * **Language:** TypeScript
 
@@ -82,7 +87,15 @@ See the [package.json](package.json) for a full list of dependencies.
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please make sure to update tests as appropriate.
 
 ## 📄 License
 
@@ -93,8 +106,19 @@ Distributed under the **MIT** License. See `LICENSE` file for more information.
 * **Rikka** ([admin@rikka.cc](mailto:admin@rikka.cc))
 * GitHub Profile: [@Muromi-Rikka](https://github.com/Muromi-Rikka)
 
+## 🚧 Troubleshooting
+
+* **Dependency Issues:** If you encounter dependency conflicts, try clearing your package manager cache:
+  ```bash
+  pnpm store prune
+  # or
+  npm cache clean --force
+  ```
+
+* **Build Errors:** Ensure you're using Node.js 18.x or later. Check the [Rsbuild documentation](https://rsbuild.dev/) for build-related issues.
+
 ## 🔗 Links
 
 * **Repository:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
-* **Homepage:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
 * **Issues:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)
+* **npm Package:** [https://www.npmjs.com/package/@trapar-waves/react-visgl-maplibre](https://www.npmjs.com/package/@trapar-waves/react-visgl-maplibre)
