@@ -62,10 +62,10 @@ Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <scri
 Example:
 ```bash
 # Start development server
-npm run dev 
+npm run dev
 
 # Create production build
-npm run build 
+npm run build
 ```
 
 ## 💻 Tech Stack

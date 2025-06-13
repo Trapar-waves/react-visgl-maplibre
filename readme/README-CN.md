@@ -62,10 +62,10 @@
 示例：
 ```bash
 # 启动开发服务器
-npm run dev 
+npm run dev
 
 # 生成生产环境构建
-npm run build 
+npm run build
 ```
 
 ## 💻 技术栈
