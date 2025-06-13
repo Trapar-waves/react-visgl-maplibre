@@ -5,6 +5,8 @@
 ![Лицензия](https://img.shields.io/badge/license-MIT-green)
 ![Последний коммит в GitHub](https://img.shields.io/github/last-commit/Trapar-waves/react-visgl-maplibre)
 
+[English](../README.md) | [中文](README-CN.md) | [日本語](README-JP.md) | [Русский](README-RU.md)
+
 > Библиотека на базе React, интегрирующая MapLibre, Deck.gl и Three.js для расширенной визуализации геопространственных данных.
 
 ## ✨ Возможности
