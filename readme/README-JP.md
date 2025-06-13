@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-visgl-maplibre)
 
+[English](../README.md) | [中文](README-CN.md) | [日本語](README-JP.md) | [Русский](README-RU.md)
+
 > MapLibre、Deck.gl、および Three.js を統合した、高度な地理空間データ可視化のための React ベースのライブラリです。
 
 ## ✨ 特徴
