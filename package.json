@@ -44,7 +44,7 @@
     "@loaders.gl/tiles": "^4.3.3",
     "@luma.gl/core": "9.1.9",
     "@luma.gl/webgl": "9.1.9",
-    "@react-three/drei": "^10.2.0",
+    "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.2",
     "deck.gl": "9.1.12",
     "maplibre-gl": "5.6.0",
