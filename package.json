@@ -1,7 +1,7 @@
 {
   "name": "@trapar-waves/react-visgl-maplibre",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A React-based geospatial visualization template integrating Three.js, Deck.gl, and MapLibre for 3D map interactions and rich geospatial data rendering.",
   "author": {
     "email": "admin@rikka.cc",
