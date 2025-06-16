@@ -88,6 +88,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **リポジトリ:** [https://github.com/react-visgl-maplibre/Trapar-waves](https://github.com/react-visgl-maplibre/Trapar-waves)
-- **ホームページ:** [https://github.com/react-visgl-maplibre/Trapar-waves](https://github.com/react-visgl-maplibre/Trapar-waves)
-- **イシュー:** [https://github.com/react-visgl-maplibre/Trapar-waves/issues](https://github.com/react-visgl-maplibre/Trapar-waves/issues)
+- **リポジトリ:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+- **ホームページ:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+- **イシュー:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)

@@ -88,6 +88,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 
 ## 🔗 Links
 
-- **Repository:** [https://github.com/react-visgl-maplibre/Trapar-waves](https://github.com/react-visgl-maplibre/Trapar-waves)
-- **Homepage:** [https://github.com/react-visgl-maplibre/Trapar-waves](https://github.com/react-visgl-maplibre/Trapar-waves)
-- **Issues:** [https://github.com/react-visgl-maplibre/Trapar-waves/issues](https://github.com/react-visgl-maplibre/Trapar-waves/issues)
+- **Repository:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+- **Homepage:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
+- **Issues:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)
