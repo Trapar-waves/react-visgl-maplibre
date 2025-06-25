@@ -24,8 +24,8 @@ importers:
         specifier: 9.1.12
         version: 9.1.12(@deck.gl/core@9.1.12)(@deck.gl/widgets@9.1.12(@deck.gl/core@9.1.12))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@loaders.gl/3d-tiles':
-        specifier: ^4.3.3
-        version: 4.3.3(@loaders.gl/core@4.3.3)
+        specifier: ^4.3.4
+        version: 4.3.4(@loaders.gl/core@4.3.3)
       '@loaders.gl/core':
         specifier: ^4.3.3
         version: 4.3.3
@@ -556,8 +556,8 @@ packages:
   '@lit/reactive-element@2.1.0':
     resolution: {integrity: sha512-L2qyoZSQClcBmq0qajBVbhYEcG6iK0XfLn66ifLe/RfC0/ihpc+pl0Wdn8bJ8o+hj38cG0fGXRgSS20MuXn7qA==}
 
-  '@loaders.gl/3d-tiles@4.3.3':
-    resolution: {integrity: sha512-3uOXE8W0ppbY7tI5ywrU3RwCLMZtd+Jh0KgY9+EbjBVnZDHcnFxytYuG4NzfJEf5zwv0jladeSbJS1oVbLi8Jw==}
+  '@loaders.gl/3d-tiles@4.3.4':
+    resolution: {integrity: sha512-JQ3y3p/KlZP7lfobwON5t7H9WinXEYTvuo3SRQM8TBKhM+koEYZhvI2GwzoXx54MbBbY+s3fm1dq5UAAmaTsZw==}
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
@@ -566,11 +566,16 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
+  '@loaders.gl/compression@4.3.4':
+    resolution: {integrity: sha512-+o+5JqL9Sx8UCwdc2MTtjQiUHYQGJALHbYY/3CT+b9g/Emzwzez2Ggk9U9waRfdHiBCzEgRBivpWZEOAtkimXQ==}
+    peerDependencies:
+      '@loaders.gl/core': ^4.3.0
+
   '@loaders.gl/core@4.3.3':
     resolution: {integrity: sha512-RaQ3uNg4ZaVqDRgvJ2CjaOjeeHdKvbKuzFFgbGnflVB9is5bu+h3EKc3Jke7NGVvLBsZ6oIXzkwHijVsMfxv8g==}
 
-  '@loaders.gl/crypto@4.3.3':
-    resolution: {integrity: sha512-uwqcSGJ4DdS2g3BYc4Noa4EGfnbK63wCQnke4Xyc7KTNl6P70oblDlRbL3df1WQPMTUoXYOERE+ei7Q0Tee4vQ==}
+  '@loaders.gl/crypto@4.3.4':
+    resolution: {integrity: sha512-3VS5FgB44nLOlAB9Q82VOQnT1IltwfRa1miE0mpHCe1prYu1M/dMnEyynusbrsp+eDs3EKbxpguIS9HUsFu5dQ==}
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
@@ -584,6 +589,11 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
+  '@loaders.gl/draco@4.3.4':
+    resolution: {integrity: sha512-4Lx0rKmYENGspvcgV5XDpFD9o+NamXoazSSl9Oa3pjVVjo+HJuzCgrxTQYD/3JvRrolW/QRehZeWD/L/cEC6mw==}
+    peerDependencies:
+      '@loaders.gl/core': ^4.3.0
+
   '@loaders.gl/gis@4.3.3':
     resolution: {integrity: sha512-OQNrieRMihsy2mVHuhi7d/SThUdNCgFXmUqhCG53qAVIS+7Nm//lO9zty3EzfOGWHjYcx6+nxl4QO3mR5fXMvg==}
     peerDependencies:
@@ -591,6 +601,11 @@ packages:
 
   '@loaders.gl/gltf@4.3.3':
     resolution: {integrity: sha512-M7jQ7KIB5itctDmGYuT9gndmjNwk1lwQ+BV4l5CoFp38e4xJESPglj2Kj8csWdm3WJhrxIYEP4GpjXK02n8DSQ==}
+    peerDependencies:
+      '@loaders.gl/core': ^4.3.0
+
+  '@loaders.gl/gltf@4.3.4':
+    resolution: {integrity: sha512-EiUTiLGMfukLd9W98wMpKmw+hVRhQ0dJ37wdlXK98XPeGGB+zTQxCcQY+/BaMhsSpYt/OOJleHhTfwNr8RgzRg==}
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
@@ -649,6 +664,11 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
+  '@loaders.gl/textures@4.3.4':
+    resolution: {integrity: sha512-arWIDjlE7JaDS6v9by7juLfxPGGnjT9JjleaXx3wq/PTp+psLOpGUywHXm38BNECos3MFEQK3/GFShWI+/dWPw==}
+    peerDependencies:
+      '@loaders.gl/core': ^4.3.0
+
   '@loaders.gl/tiles@4.3.3':
     resolution: {integrity: sha512-cmC/spc+DM5aCSHoHrEuTPhDLuZRtkrWnlHkhC2Tur9uiUr41U3vXnC5slJkOeIWkaN4Q7KRFGCQ6SCendYfMg==}
     peerDependencies:
@@ -679,8 +699,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
-  '@loaders.gl/zip@4.3.3':
-    resolution: {integrity: sha512-PPNR9xBLfhBd4Fw69Ai5cUzIJZFCYg3DiYGeR8mA8ik9tuseH+hEBUSsmzU4RFP53xkPLLYvzXjVyiBzfbsjZg==}
+  '@loaders.gl/zip@4.3.4':
+    resolution: {integrity: sha512-bHY4XdKYJm3vl9087GMoxnUqSURwTxPPh6DlAGOmz6X9Mp3JyWuA2gk3tQ1UIuInfjXKph3WAUfGe6XRIs1sfw==}
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
@@ -3831,7 +3851,7 @@ snapshots:
       '@deck.gl/extensions': 9.1.12(@deck.gl/core@9.1.12)(@luma.gl/core@9.1.9)(@luma.gl/engine@9.1.9(@luma.gl/core@9.1.9)(@luma.gl/shadertools@9.1.9(@luma.gl/core@9.1.9)))
       '@deck.gl/layers': 9.1.12(@deck.gl/core@9.1.12)(@loaders.gl/core@4.3.3)(@luma.gl/core@9.1.9)(@luma.gl/engine@9.1.9(@luma.gl/core@9.1.9)(@luma.gl/shadertools@9.1.9(@luma.gl/core@9.1.9)))
       '@deck.gl/mesh-layers': 9.1.12(@deck.gl/core@9.1.12)(@loaders.gl/core@4.3.3)(@luma.gl/core@9.1.9)(@luma.gl/engine@9.1.9(@luma.gl/core@9.1.9)(@luma.gl/shadertools@9.1.9(@luma.gl/core@9.1.9)))
-      '@loaders.gl/3d-tiles': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/3d-tiles': 4.3.4(@loaders.gl/core@4.3.3)
       '@loaders.gl/core': 4.3.3
       '@loaders.gl/gis': 4.3.3(@loaders.gl/core@4.3.3)
       '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
@@ -4232,18 +4252,18 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.3.0
 
-  '@loaders.gl/3d-tiles@4.3.3(@loaders.gl/core@4.3.3)':
+  '@loaders.gl/3d-tiles@4.3.4(@loaders.gl/core@4.3.3)':
     dependencies:
-      '@loaders.gl/compression': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/compression': 4.3.4(@loaders.gl/core@4.3.3)
       '@loaders.gl/core': 4.3.3
-      '@loaders.gl/crypto': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/draco': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/gltf': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/images': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/math': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/tiles': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/zip': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/crypto': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/draco': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/gltf': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/images': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/math': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/tiles': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/zip': 4.3.4(@loaders.gl/core@4.3.3)
       '@math.gl/core': 4.1.0
       '@math.gl/culling': 4.1.0
       '@math.gl/geospatial': 4.1.0
@@ -4266,6 +4286,22 @@ snapshots:
       lz4js: 0.2.0
       zstd-codec: 0.1.5
 
+  '@loaders.gl/compression@4.3.4(@loaders.gl/core@4.3.3)':
+    dependencies:
+      '@loaders.gl/core': 4.3.3
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/worker-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@types/brotli': 1.3.4
+      '@types/pako': 1.0.7
+      fflate: 0.7.4
+      lzo-wasm: 0.0.4
+      pako: 1.0.11
+      snappyjs: 0.6.1
+    optionalDependencies:
+      brotli: 1.3.3
+      lz4js: 0.2.0
+      zstd-codec: 0.1.5
+
   '@loaders.gl/core@4.3.3':
     dependencies:
       '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
@@ -4273,11 +4309,11 @@ snapshots:
       '@loaders.gl/worker-utils': 4.3.3(@loaders.gl/core@4.3.3)
       '@probe.gl/log': 4.1.0
 
-  '@loaders.gl/crypto@4.3.3(@loaders.gl/core@4.3.3)':
+  '@loaders.gl/crypto@4.3.4(@loaders.gl/core@4.3.3)':
     dependencies:
       '@loaders.gl/core': 4.3.3
-      '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/worker-utils': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/worker-utils': 4.3.4(@loaders.gl/core@4.3.3)
       '@types/crypto-js': 4.2.2
 
   '@loaders.gl/csv@4.3.3(@loaders.gl/core@4.3.3)':
@@ -4293,6 +4329,14 @@ snapshots:
       '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
       '@loaders.gl/schema': 4.3.3(@loaders.gl/core@4.3.3)
       '@loaders.gl/worker-utils': 4.3.3(@loaders.gl/core@4.3.3)
+      draco3d: 1.5.7
+
+  '@loaders.gl/draco@4.3.4(@loaders.gl/core@4.3.3)':
+    dependencies:
+      '@loaders.gl/core': 4.3.3
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/schema': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/worker-utils': 4.3.4(@loaders.gl/core@4.3.3)
       draco3d: 1.5.7
 
   '@loaders.gl/gis@4.3.3(@loaders.gl/core@4.3.3)':
@@ -4312,6 +4356,16 @@ snapshots:
       '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
       '@loaders.gl/schema': 4.3.3(@loaders.gl/core@4.3.3)
       '@loaders.gl/textures': 4.3.3(@loaders.gl/core@4.3.3)
+      '@math.gl/core': 4.1.0
+
+  '@loaders.gl/gltf@4.3.4(@loaders.gl/core@4.3.3)':
+    dependencies:
+      '@loaders.gl/core': 4.3.3
+      '@loaders.gl/draco': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/images': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/schema': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/textures': 4.3.4(@loaders.gl/core@4.3.3)
       '@math.gl/core': 4.1.0
 
   '@loaders.gl/images@4.3.3(@loaders.gl/core@4.3.3)':
@@ -4394,6 +4448,17 @@ snapshots:
       ktx-parse: 0.7.1
       texture-compressor: 1.0.2
 
+  '@loaders.gl/textures@4.3.4(@loaders.gl/core@4.3.3)':
+    dependencies:
+      '@loaders.gl/core': 4.3.3
+      '@loaders.gl/images': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/schema': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/worker-utils': 4.3.4(@loaders.gl/core@4.3.3)
+      '@math.gl/types': 4.1.0
+      ktx-parse: 0.7.1
+      texture-compressor: 1.0.2
+
   '@loaders.gl/tiles@4.3.3(@loaders.gl/core@4.3.3)':
     dependencies:
       '@loaders.gl/core': 4.3.3
@@ -4441,12 +4506,12 @@ snapshots:
       '@loaders.gl/schema': 4.3.3(@loaders.gl/core@4.3.3)
       fast-xml-parser: 4.5.3
 
-  '@loaders.gl/zip@4.3.3(@loaders.gl/core@4.3.3)':
+  '@loaders.gl/zip@4.3.4(@loaders.gl/core@4.3.3)':
     dependencies:
-      '@loaders.gl/compression': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/compression': 4.3.4(@loaders.gl/core@4.3.3)
       '@loaders.gl/core': 4.3.3
-      '@loaders.gl/crypto': 4.3.3(@loaders.gl/core@4.3.3)
-      '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.3)
+      '@loaders.gl/crypto': 4.3.4(@loaders.gl/core@4.3.3)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.3)
       jszip: 3.10.1
       md5: 2.3.0
 
