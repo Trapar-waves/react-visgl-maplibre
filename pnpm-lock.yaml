@@ -30,8 +30,8 @@ importers:
         specifier: ^4.3.4
         version: 4.3.4
       '@loaders.gl/csv':
-        specifier: ^4.3.3
-        version: 4.3.3(@loaders.gl/core@4.3.4)
+        specifier: ^4.3.4
+        version: 4.3.4(@loaders.gl/core@4.3.4)
       '@loaders.gl/tiles':
         specifier: ^4.3.4
         version: 4.3.4(@loaders.gl/core@4.3.4)
@@ -579,8 +579,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
-  '@loaders.gl/csv@4.3.3':
-    resolution: {integrity: sha512-ziDj5UE31/zoToW4OvjjYh4ueApauaSZmT0/4XNa/ixCkVWA3AQeuhiViWNW5u+pG6Bn92UTa08riJG591vOpA==}
+  '@loaders.gl/csv@4.3.4':
+    resolution: {integrity: sha512-F3RiZ24bekkZozBnvaJK3uUBENfYXTmEQPRY6KzxLqVs+oWIfIJyDeemau07Z9qRnsdw1IJ8O+HNotcjoZn9Xw==}
     peerDependencies:
       '@loaders.gl/core': ^4.3.0
 
@@ -4306,11 +4306,11 @@ snapshots:
       '@loaders.gl/worker-utils': 4.3.4(@loaders.gl/core@4.3.4)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/csv@4.3.3(@loaders.gl/core@4.3.4)':
+  '@loaders.gl/csv@4.3.4(@loaders.gl/core@4.3.4)':
     dependencies:
       '@loaders.gl/core': 4.3.4
-      '@loaders.gl/loader-utils': 4.3.3(@loaders.gl/core@4.3.4)
-      '@loaders.gl/schema': 4.3.3(@loaders.gl/core@4.3.4)
+      '@loaders.gl/loader-utils': 4.3.4(@loaders.gl/core@4.3.4)
+      '@loaders.gl/schema': 4.3.4(@loaders.gl/core@4.3.4)
       d3-dsv: 1.2.0
 
   '@loaders.gl/draco@4.3.3(@loaders.gl/core@4.3.4)':
