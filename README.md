@@ -11,75 +11,120 @@
 
 [中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
 
-> A React-based library that integrates MapLibre, Deck.gl, and Three.js for advanced geospatial data visualization.
+> A React-based geospatial visualization template integrating Three.js, Deck.gl, and MapLibre for 3D map interactions and rich geospatial data rendering.
 
 ## ✨ Features
 
-- **React Integration:** Built using React for a component-driven architecture, allowing seamless integration into React applications.
-- **Geospatial Data Visualization:** Utilizes Deck.gl and MapLibre to provide rich geospatial data visualization capabilities.
-- **3D Rendering with Three.js:** Employs `@react-three/fiber` and `three` to enable 3D rendering and interactive 3D experiences within the map interface.
-- **Layer-Based Design:** Offers support for multiple layers (via Deck.gl) such as aggregation layers, geo-layers, and custom Mapbox-compatible layers.
-- **Data Loading & Parsing:** Includes loaders like `@loaders.gl/core` and `@loaders.gl/csv` to handle various data formats (CSV, 3D Tiles, etc.), making it easier to work with large datasets.
-- **Tailwind CSS Styling:** Employs Tailwind CSS for utility-first styling, offering flexibility in UI customization.
-- **Modern Build Workflow:** Built with Rsbuild for optimized development builds and hot module replacement, ensuring a fast and efficient development cycle.
-- **Type Safety:** Leverages TypeScript (`@types/react`, `@types/three`) to enhance code reliability and developer experience.
+- **Integrated Geospatial Stack:** Combines MapLibre GL JS for vector maps, Deck.gl for high-performance WebGL-based visualization layers, and Three.js for custom 3D objects, all within a React environment.
+- **React Three Fiber & react-three-map:** Uses `@react-three/fiber` for declarative Three.js scenes and `react-three-map` to synchronize Three.js objects with MapLibre map movements and terrain.
+- **Deck.gl Layers & Effects:** Supports a wide range of Deck.gl layers (e.g., HexagonLayer for aggregations) and effects (e.g., lighting) for advanced data visualization.
+- **Data Loading:** Incorporates `@loaders.gl` for efficient loading and parsing of various data formats like CSV and 3D Tiles.
+- **Modern Development Experience:**
+  - Built with Rsbuild for fast HMR and optimized builds.
+  - Styled with Tailwind CSS for rapid UI development.
+  - Fully typed with TypeScript for improved code quality and developer experience.
+  - Linting and formatting with ESLint.
+  - Git hooks with Husky for code quality checks.
 
 ## 💻 Tech Stack
 
-- **Framework/Library:** React
-- **UI Toolkit:** Mantine
-- **State Management:** Zustand
-- **Data Fetching:** Tanstack Query (React Query)
-- **Table Component:** Tanstack Table
-- **Routing:** Tanstack Router
-- **3D Visualization:** Three.js, Deck.gl, MapLibre
-- **Styling:** Tailwind CSS
-- **Build Tool:** Rsbuild
-- **Language:** TypeScript
+- **Core Libraries:**
+  - React (v18+)
+  - MapLibre GL JS
+  - Deck.gl
+  - Three.js
+  - React Three Fiber (`@react-three/fiber`)
+  - React Three Map (`react-three-map`)
+- **UI & Styling:**
+  - Tailwind CSS
+- **Build & Dev Tools:**
+  - Rsbuild
+  - TypeScript
+  - ESLint
+  - Husky
+- **Data Loading:**
+  - `@loaders.gl/core`
+  - `@loaders.gl/csv`
 
-See the [package.json](package.json) for a full list of dependencies.
+*(See [package.json](package.json) for a complete list of dependencies)*
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project running locally.
+This template is designed to be used with `create-trapar-waves`, but you can also clone and run it directly.
 
 ### Prerequisites
 
-Ensure you have the following installed:
-
 - Node.js (>= 18.x recommended)
-- Package manager (npm, yarn, or pnpm)
+- pnpm (recommended), npm, or yarn
 
 ```bash
 node -v
-npm -v
+pnpm -v # or npm -v
 ```
 
-### Installation
+### Running the Template Directly
 
-Run script
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Trapar-waves/react-visgl-maplibre.git
+   cd react-visgl-maplibre
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pnpm install
+   # or
+   # npm install
+   # yarn install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   pnpm dev
+   # or
+   # npm run dev
+   # yarn dev
+   ```
+
+   This will start the Rsbuild dev server and open the app in your default browser.
+
+### Using the Template via `create-trapar-waves`
 
 ```bash
 pnpm create trapar-waves
 ```
 
-Install dependencies
+Follow the prompts to select this template.
 
-```bash
-npm install
-yarn install
-pnpm install
+## 🧱 Project Structure
+
 ```
+src/
+├── App.tsx          # Main application component
+├── index.tsx        # Entry point for React app
+├── deckgl/          # Deck.gl layer and overlay configuration
+├── source/          # MapLibre map source components
+└── global.css       # Global styles (Tailwind imports)
+```
+
+- `App.tsx`: The main application component demonstrating the integration. It sets up a MapLibre map with terrain and a synchronized Three.js canvas. A Deck.gl `HexagonLayer` is overlaid for heatmap visualization.
+- `deckgl/`: Contains the configuration for Deck.gl layers (`heatmapLayer`) and the `MapboxOverlay` instance (`deckOverlay`) which bridges Deck.gl with MapLibre.
+- `source/`: Defines custom map sources for the MapLibre map, such as terrain and hillshade DEMs.
 
 ## 🤝 Contributing
 
-Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
+Contributions are welcome and greatly appreciated!
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+Please ensure your code adheres to the existing style and passes linting checks.
 
 ## 👤 Author
 
