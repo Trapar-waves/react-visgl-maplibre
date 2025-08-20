@@ -11,82 +11,127 @@
 
 [English](../README.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
 
-> 一个基于React的库，集成了MapLibre、Deck.gl和Three.js，用于高级地理空间数据可视化。
+> 一个基于 React 的地理空间可视化模板，集成了 Three.js、Deck.gl 和 MapLibre，用于 3D 地图交互和丰富的地理空间数据渲染。
 
 ## ✨ 特性
 
-- **React集成:** 使用React构建组件驱动的架构，允许无缝集成到React应用中。
-- **地理空间数据可视化:** 利用Deck.gl和MapLibre提供丰富的地理空间数据可视化能力。
-- **Three.js 3D渲染:** 采用`@react-three/fiber`和`three`在地图界面中实现3D渲染和交互式3D体验。
-- **基于图层的设计:** 支持多种图层（通过Deck.gl），如聚合图层、地理图层和自定义Mapbox兼容图层。
-- **数据加载与解析:** 包含`@loaders.gl/core`和`@loaders.gl/csv`等加载器，可处理各种数据格式（CSV、3D Tiles等），便于处理大型数据集。
-- **Tailwind CSS样式:** 采用Tailwind CSS进行实用优先的样式设计，提供UI定制的灵活性。
-- **现代构建工作流:** 使用Rsbuild构建，实现优化的开发构建和热模块替换，确保快速高效的开发周期。
-- **类型安全:** 利用TypeScript（`@types/react`、`@types/three`）增强代码可靠性和开发者体验。
+- **集成的地理空间技术栈：** 结合 MapLibre GL JS 用于矢量地图、Deck.gl 用于高性能 WebGL 可视化图层，以及 Three.js 用于自定义 3D 对象，全部在 React 环境中。
+- **React Three Fiber & react-three-map：** 使用 `@react-three/fiber` 进行声明式 Three.js 场景，并使用 `react-three-map` 将 Three.js 对象与 MapLibre 地图的移动和地形同步。
+- **Deck.gl 图层与效果：** 支持广泛的 Deck.gl 图层（例如用于聚合的 HexagonLayer）和效果（例如照明），以实现高级数据可视化。
+- **数据加载：** 集成 `@loaders.gl` 以高效加载和解析各种数据格式，例如 CSV 和 3D Tiles。
+- **现代化开发体验：**
+  - 使用 Rsbuild 构建，实现快速的 HMR 和优化构建。
+  - 使用 Tailwind CSS 进行样式设计，加速 UI 开发。
+  - 使用 TypeScript 完全类型化，以提高代码质量和开发者体验。
+  - 使用 ESLint 进行代码检查和格式化。
+  - 使用 Husky 进行 Git 钩子，以检查代码质量。
 
 ## 💻 技术栈
 
-- **框架/库:** React
-- **UI工具包:** Mantine
-- **状态管理:** Zustand
-- **数据获取:** Tanstack Query (React Query)
-- **表格组件:** Tanstack Table
-- **路由:** Tanstack Router
-- **3D可视化:** Three.js, Deck.gl, MapLibre
-- **样式:** Tailwind CSS
-- **构建工具:** Rsbuild
-- **语言:** TypeScript
+- **核心库：**
+  - React (v18+)
+  - MapLibre GL JS
+  - Deck.gl
+  - Three.js
+  - React Three Fiber (`@react-three/fiber`)
+  - React Three Map (`react-three-map`)
+- **UI 与样式：**
+  - Tailwind CSS
+- **构建与开发工具：**
+  - Rsbuild
+  - TypeScript
+  - ESLint
+  - Husky
+- **数据加载：**
+  - `@loaders.gl/core`
+  - `@loaders.gl/csv`
 
-完整依赖列表参见[package.json](package.json)。
+*（请参见 [package.json](package.json) 获取完整的依赖列表）*
 
-## 🚀 开始使用
+## 🚀 入门指南
 
-按照以下说明在本地运行项目。
+此模板设计用于 `create-trapar-waves`，但您也可以直接克隆并运行它。
 
-### 前提条件
+### 先决条件
 
-确保已安装以下软件：
-
-- Node.js (推荐 >= 18.x 版本)
-- 包管理器 (npm, yarn 或 pnpm)
+- Node.js (推荐 >= 18.x)
+- pnpm (推荐)、npm 或 yarn
 
 ```bash
 node -v
-npm -v
+pnpm -v # 或 npm -v
 ```
 
-### 安装步骤
+### 直接运行模板
 
-运行脚本
+1. **克隆仓库：**
+
+   ```bash
+   git clone https://github.com/Trapar-waves/react-visgl-maplibre.git
+   cd react-visgl-maplibre
+   ```
+
+2. **安装依赖：**
+
+   ```bash
+   pnpm install
+   # 或
+   # npm install
+   # yarn install
+   ```
+
+3. **启动开发服务器：**
+
+   ```bash
+   pnpm dev
+   # 或
+   # npm run dev
+   # yarn dev
+   ```
+
+   这将启动 Rsbuild 开发服务器并在默认浏览器中打开应用程序。
+
+### 通过 `create-trapar-waves` 使用模板
 
 ```bash
 pnpm create trapar-waves
 ```
 
-安装依赖
+按照提示选择此模板。
 
-```bash
-npm install
-yarn install
-pnpm install
+## 🧱 项目结构
+
+```
+src/
+├── App.tsx          # 主应用组件
+├── index.tsx        # React 应用的入口点
+├── deckgl/          # Deck.gl 图层和覆盖配置
+├── source/          # MapLibre 地图源组件
+└── global.css       # 全局样式 (Tailwind 导入)
 ```
 
-## 🤝 贡献指南
+- `App.tsx`：主应用组件，演示了集成。它设置了一个带有地形和同步 Three.js 画布的 MapLibre 地图。Deck.gl 的 `HexagonLayer` 被覆盖以进行热力图可视化。
+- `deckgl/`：包含 Deck.gl 图层 (`heatmapLayer`) 和 `MapboxOverlay` 实例 (`deckOverlay`) 的配置，后者将 Deck.gl 与 MapLibre 连接起来。
+- `source/`：为 MapLibre 地图定义自定义地图源，例如地形和山体阴影 DEM。
 
-欢迎贡献，非常感谢您的支持！请按照以下步骤进行贡献：
+## 🤝 贡献
 
-1. Fork 本仓库
-2. 创建功能分支（`git checkout -b feature/amazing-feature`）
-3. 提交您的更改（`git commit -m 'Add some amazing feature'`）
-4. 推送到分支（`git push origin feature/amazing-feature`）
-5. 打开Pull Request
+欢迎并感谢您的贡献！
 
-## 👤 Author
+1. Fork 仓库
+2. 创建您的功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交您的更改 (`git commit -m 'Add some amazing feature'`)
+4. 推送到该分支 (`git push origin feature/amazing-feature`)
+5. 打开 Pull Request
+
+请确保您的代码遵循现有风格并通过了代码检查。
+
+## 👤 作者
 
 - **Rikka:** (admin@rikka.cc)
-- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+- **GitHub 主页:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
-## 🔗 Links
+## 🔗 链接
 
 - **仓库:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
 - **主页:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
