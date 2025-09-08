@@ -130,8 +130,8 @@ importers:
         specifier: ^4.1.13
         version: 4.1.13
       taze:
-        specifier: ^19.5.0
-        version: 19.5.0
+        specifier: ^19.6.0
+        version: 19.6.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -3371,8 +3371,8 @@ packages:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
 
-  taze@19.5.0:
-    resolution: {integrity: sha512-4Rjy23i2bcFWM74rIW1KtsIul57XchYy3U7SXf6JUIveqcllI4tS3cgPwQKnq8X7as0Up9TWBDpD/sBhfB8vSg==}
+  taze@19.6.0:
+    resolution: {integrity: sha512-hQGQH4WVtV9BqsZbrGzOmOP4NdWqie948BnqtH+NPwdVt5mI+qALVRDvgzgdf+neN7bcrVVpV4ToyFkxg0U0xQ==}
     hasBin: true
 
   texture-compressor@1.0.2:
@@ -7556,7 +7556,7 @@ snapshots:
       mkdirp: 3.0.1
       yallist: 5.0.0
 
-  taze@19.5.0:
+  taze@19.6.0:
     dependencies:
       '@antfu/ni': 25.0.0
       cac: 6.7.14
