@@ -79,8 +79,8 @@ importers:
         specifier: ^1.53.1
         version: 1.53.1(eslint@9.36.0(jiti@2.5.1))(ts-api-utils@2.1.0(typescript@5.9.2))(typescript@5.9.2)
       '@iconify/json':
-        specifier: ^2.2.386
-        version: 2.2.386
+        specifier: ^2.2.387
+        version: 2.2.387
       '@iconify/tailwind4':
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.13)
@@ -213,6 +213,7 @@ packages:
 
   '@arcgis/lumina@4.34.0-next.141':
     resolution: {integrity: sha512-tL6Qx5ZrWEVM61bUlFld27H+kTpz3lmuI3ATu7EgCApWuwPrqd5uF0J+UPIVCVK53cTVgZMToVN97Q28gXpF7Q==}
+    deprecated: This version is no longer supported. Upgrade to @latest
     peerDependencies:
       '@lit/context': ^1.1.5
       lit: ^3.3.0
@@ -222,6 +223,7 @@ packages:
 
   '@arcgis/toolkit@4.34.0-next.141':
     resolution: {integrity: sha512-qiUdZYhfBbwQ8aCMi/Ib7Du55lVaPudMRTiXwx2Y5pAxUSsLPG48JA3uWxu01HK5QTv5NNg5OaaWl9/8efyhFg==}
+    deprecated: This version is no longer supported. Upgrade to @latest
 
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
@@ -504,8 +506,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.386':
-    resolution: {integrity: sha512-qvSvaRBu4B1PXKLoXc2yme+eRy3NDTQh/CO3k1vmXjwDKFTFUEVmn8nTD4elPMJZEQa3OOVjh4NfYopnxiAabA==}
+  '@iconify/json@2.2.387':
+    resolution: {integrity: sha512-R1PTcM799jGSqHNfzggGqEQA+bQry/X/ckoISJIMKZdC9cz4pYWrWZsRGU50DmYkqTcC9aBQcSLOZxBFHTVT3Q==}
 
   '@iconify/tailwind4@1.0.6':
     resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
@@ -4014,7 +4016,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/json@2.2.386':
+  '@iconify/json@2.2.387':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
