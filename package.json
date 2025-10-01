@@ -80,6 +80,6 @@
     "mapbox-gl": "^3.15.0",
     "tailwindcss": "^4.1.13",
     "taze": "^19.7.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
