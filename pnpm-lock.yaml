@@ -85,8 +85,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(tailwindcss@4.1.17)
       '@maplibre/maplibre-gl-style-spec':
-        specifier: ^24.3.1
-        version: 24.3.1
+        specifier: ^24.4.0
+        version: 24.4.0
       '@rsbuild/core':
         specifier: ^1.6.14
         version: 1.6.14
@@ -785,8 +785,8 @@ packages:
     resolution: {integrity: sha512-cOZZOVhDSulgK0meTsTkmNXb1ahVvmTmWmfx9gRBwc6hq98wS9JP35ESIoNq3xqEan+UN+gn8187Z6E4NKhLsw==}
     hasBin: true
 
-  '@maplibre/maplibre-gl-style-spec@24.3.1':
-    resolution: {integrity: sha512-TUM5JD40H2mgtVXl5IwWz03BuQabw8oZQLJTmPpJA0YTYF+B+oZppy5lNMO6bMvHzB+/5mxqW9VLG3wFdeqtOw==}
+  '@maplibre/maplibre-gl-style-spec@24.4.0':
+    resolution: {integrity: sha512-VVuNV2Yf0+yQoth4qbdIPE0qKS6nIG5Atki9BVHZ7R7+0lZyxqxwrh0XVNA5YkuKuytFg/1i3VMyJQnp2EtOqw==}
     hasBin: true
 
   '@maplibre/mlt@1.1.2':
@@ -4450,7 +4450,7 @@ snapshots:
       rw: 1.3.3
       sort-object: 3.0.3
 
-  '@maplibre/maplibre-gl-style-spec@24.3.1':
+  '@maplibre/maplibre-gl-style-spec@24.4.0':
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.2
       '@mapbox/unitbezier': 0.0.1
@@ -6435,7 +6435,7 @@ snapshots:
       '@mapbox/unitbezier': 0.0.1
       '@mapbox/vector-tile': 2.0.4
       '@mapbox/whoots-js': 3.1.0
-      '@maplibre/maplibre-gl-style-spec': 24.3.1
+      '@maplibre/maplibre-gl-style-spec': 24.4.0
       '@maplibre/mlt': 1.1.2
       '@maplibre/vt-pbf': 4.1.0
       '@types/geojson': 7946.0.16
