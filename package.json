@@ -66,7 +66,7 @@
     "@iconify/tailwind4": "^1.2.1",
     "@maplibre/maplibre-gl-style-spec": "^24.4.1",
     "@rsbuild/core": "^1.7.3",
-    "@rsbuild/plugin-react": "^1.4.4",
+    "@rsbuild/plugin-react": "^1.4.5",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
