@@ -51,7 +51,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "deck.gl": "^9.2.9",
-    "maplibre-gl": "^5.18.0",
+    "maplibre-gl": "^5.19.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-map-gl": "^8.1.0",
