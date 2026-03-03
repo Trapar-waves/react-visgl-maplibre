@@ -79,7 +79,7 @@
     "lint-staged": "^16.3.1",
     "mapbox-gl": "^3.19.0",
     "tailwindcss": "^4.2.1",
-    "taze": "^19.9.2",
+    "taze": "^19.10.0",
     "typescript": "^5.9.3"
   }
 }
