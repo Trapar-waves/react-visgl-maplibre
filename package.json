@@ -64,7 +64,7 @@
     "@eslint-react/eslint-plugin": "^4.2.3",
     "@iconify/json": "^2.2.458",
     "@iconify/tailwind4": "^1.2.3",
-    "@maplibre/maplibre-gl-style-spec": "^24.8.0",
+    "@maplibre/maplibre-gl-style-spec": "^24.8.1",
     "@rsbuild/core": "^1.7.5",
     "@rsbuild/plugin-react": "^1.4.6",
     "@tailwindcss/postcss": "^4.2.2",
