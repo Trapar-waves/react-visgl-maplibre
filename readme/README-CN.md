@@ -46,7 +46,7 @@
   - `@loaders.gl/core`
   - `@loaders.gl/csv`
 
-*（请参见 [package.json](package.json) 获取完整的依赖列表）*
+_（请参见 [package.json](package.json) 获取完整的依赖列表）_
 
 ## 🚀 入门指南
 

@@ -46,7 +46,7 @@
   - `@loaders.gl/core`
   - `@loaders.gl/csv`
 
-*(Полный список зависимостей см. в [package.json](package.json))*
+_(Полный список зависимостей см. в [package.json](package.json))_
 
 ## 🚀 Начало работы
 

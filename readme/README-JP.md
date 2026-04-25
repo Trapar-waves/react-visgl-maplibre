@@ -46,7 +46,7 @@
   - `@loaders.gl/core`
   - `@loaders.gl/csv`
 
-*（依存関係の完全なリストについては、[package.json](package.json) を参照してください）*
+_（依存関係の完全なリストについては、[package.json](package.json) を参照してください）_
 
 ## 🚀 はじめに
 

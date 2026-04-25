@@ -46,7 +46,7 @@
   - `@loaders.gl/core`
   - `@loaders.gl/csv`
 
-*(See [package.json](package.json) for a complete list of dependencies)*
+_(See [package.json](package.json) for a complete list of dependencies)_
 
 ## 🚀 Getting Started
 
