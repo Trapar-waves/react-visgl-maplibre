@@ -41,7 +41,7 @@ const techStack: TechPill[] = [
   { id: "react", label: "React 19", iconClass: "icon-[logos--react]" },
   { id: "ts", label: "TypeScript", iconClass: "icon-[logos--typescript-icon]" },
   { id: "tailwind", label: "Tailwind 4", iconClass: "icon-[logos--tailwindcss-icon]" },
-  { id: "rsbuild", label: "Rsbuild", iconClass: "icon-[logos--webpack]" },
+  { id: "rsbuild", label: "Rsbuild", iconClass: "icon-[material-icon-theme--rstack]" },
   { id: "maplibre", label: "MapLibre · react-map-gl", iconClass: "icon-[simple-icons--maplibre]" },
   { id: "deck", label: "Deck.gl", iconClass: "icon-[logos--markdown]" },
   { id: "loaders", label: "@loaders.gl", iconClass: "icon-[logos--markdown]" },
