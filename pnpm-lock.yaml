@@ -88,14 +88,14 @@ importers:
         specifier: ^24.8.5
         version: 24.8.5
       '@rsbuild/core':
-        specifier: ^2.0.4
-        version: 2.0.4(core-js@3.47.0)
+        specifier: ^2.0.5
+        version: 2.0.5(core-js@3.47.0)
       '@rsbuild/plugin-react':
         specifier: ^2.0.0
-        version: 2.0.0(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
+        version: 2.0.0(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/rspack-plugin':
         specifier: ^1.5.9
-        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
+        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@tailwindcss/postcss':
         specifier: ^4.2.4
         version: 4.2.4
@@ -1183,8 +1183,8 @@ packages:
       react-native:
         optional: true
 
-  '@rsbuild/core@2.0.4':
-    resolution: {integrity: sha512-ahnE0vXpt1KI07gRbz0QQesyB8hUSOqTb13tHoQf2gJwRpPaY3YNe9wLAdoFvfW4k/2L9d5PU7ByFgGKEJAHxw==}
+  '@rsbuild/core@2.0.5':
+    resolution: {integrity: sha512-KajO50hbXb32S8MsyDh2f+xKcVeRy9Gfzdcy0JjpMLj22djHugly6jrGo7jH7ls9X6/TDcyCTncSuNK4+D2lTw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -5953,7 +5953,7 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@2.0.4(core-js@3.47.0)':
+  '@rsbuild/core@2.0.5(core-js@3.47.0)':
     dependencies:
       '@rspack/core': 2.0.2(@swc/helpers@0.5.21)
       '@swc/helpers': 0.5.21
@@ -5962,7 +5962,7 @@ snapshots:
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.4(core-js@3.47.0))':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.5(core-js@3.47.0))':
     dependencies:
       acorn: 8.16.0
       browserslist-to-es-version: 1.4.1
@@ -5970,22 +5970,22 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.0.4(core-js@3.47.0)
+      '@rsbuild/core': 2.0.5(core-js@3.47.0)
 
-  '@rsbuild/plugin-react@2.0.0(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
+  '@rsbuild/plugin-react@2.0.0(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
     dependencies:
       '@rspack/plugin-react-refresh': 2.0.0(@rspack/core@2.0.2(@swc/helpers@0.5.21))(react-refresh@0.18.0)
       react-refresh: 0.18.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.4(core-js@3.47.0)
+      '@rsbuild/core': 2.0.5(core-js@3.47.0)
     transitivePeerDependencies:
       - '@rspack/core'
 
   '@rsdoctor/client@1.5.9': {}
 
-  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
+  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.4(core-js@3.47.0))
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.5(core-js@3.47.0))
       '@rsdoctor/graph': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/sdk': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/types': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
@@ -6018,9 +6018,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
+  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))':
     dependencies:
-      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.4(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
+      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.5(core-js@3.47.0))(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/graph': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/sdk': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/types': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
