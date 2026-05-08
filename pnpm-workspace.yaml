@@ -6,3 +6,7 @@ onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - "@vaadin/vaadin-usage-statistics"
   - core-js
+
+allowBuilds:
+  '@vaadin/vaadin-usage-statistics': false
+  core-js: true
