@@ -127,8 +127,8 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.0.3
-        version: 17.0.3
+        specifier: ^17.0.4
+        version: 17.0.4
       mapbox-gl:
         specifier: ^3.23.1
         version: 3.23.1
@@ -3467,8 +3467,8 @@ packages:
     resolution: {integrity: sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  lint-staged@17.0.3:
-    resolution: {integrity: sha512-wnvMRhzC3GNpjixxleiG+pAW09dHTUgBCjMS7XouAg5E7wKUc8YdfogpF7zIgvXKDbH+452O6+XpnKm6V67rPw==}
+  lint-staged@17.0.4:
+    resolution: {integrity: sha512-+rU9lSUyVOZ/hDUmRLVGzyS2v73cDdQjX+XQz1AaOdIE4RysLq0HoPW2HrrgeNCLklkhi904VBU1bmgWLHVnkA==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -4721,7 +4721,7 @@ snapshots:
   '@antfu/install-pkg@1.1.0':
     dependencies:
       package-manager-detector: 1.6.0
-      tinyexec: 1.0.4
+      tinyexec: 1.1.2
 
   '@antfu/ni@30.0.0':
     dependencies:
@@ -7769,7 +7769,7 @@ snapshots:
       pathe: 2.0.3
       pnpm-workspace-yaml: 1.6.0
       tinyglobby: 0.2.15
-      yaml: 2.8.3
+      yaml: 2.8.4
       yaml-eslint-parser: 2.0.0
 
   eslint-plugin-react-dom@3.0.0(eslint@10.3.0(jiti@2.6.1))(typescript@6.0.3):
@@ -8464,7 +8464,7 @@ snapshots:
 
   lines-and-columns@2.0.4: {}
 
-  lint-staged@17.0.3:
+  lint-staged@17.0.4:
     dependencies:
       listr2: 10.2.1
       picomatch: 4.0.4
@@ -9801,7 +9801,7 @@ snapshots:
   yaml-eslint-parser@2.0.0:
     dependencies:
       eslint-visitor-keys: 5.0.1
-      yaml: 2.8.3
+      yaml: 2.8.4
 
   yaml@2.8.3: {}
 
