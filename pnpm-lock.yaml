@@ -30,8 +30,8 @@ importers:
         specifier: ^4.4.1
         version: 4.4.1
       '@loaders.gl/csv':
-        specifier: ^4.4.1
-        version: 4.4.1(@loaders.gl/core@4.4.1)
+        specifier: ^4.4.2
+        version: 4.4.2(@loaders.gl/core@4.4.1)
       '@loaders.gl/tiles':
         specifier: ^4.4.2
         version: 4.4.2(@loaders.gl/core@4.4.1)
@@ -686,8 +686,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
-  '@loaders.gl/csv@4.4.1':
-    resolution: {integrity: sha512-/1aB5D8NMYKnxwN8Ed6S+hYZUdqE7pHs50VjsBta4JehkTo0aanqvGtdiaZWQmhazPhwX8urmop3YQz/+E01xA==}
+  '@loaders.gl/csv@4.4.2':
+    resolution: {integrity: sha512-gDpYjGXnpXhbQM48WE3RjEEfdaD0Du2aYoEAoQwqhT+eyc8k+yT/tfs/Gd6Y/nuZWpuPPwLei75hePIyMPjE8A==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -5584,11 +5584,11 @@ snapshots:
     transitivePeerDependencies:
       - '@75lb/nature'
 
-  '@loaders.gl/csv@4.4.1(@loaders.gl/core@4.4.1)':
+  '@loaders.gl/csv@4.4.2(@loaders.gl/core@4.4.1)':
     dependencies:
       '@loaders.gl/core': 4.4.1
-      '@loaders.gl/loader-utils': 4.4.1(@loaders.gl/core@4.4.1)
-      '@loaders.gl/schema': 4.4.1
+      '@loaders.gl/loader-utils': 4.4.2(@loaders.gl/core@4.4.1)
+      '@loaders.gl/schema': 4.4.2
       d3-dsv: 1.2.0
     transitivePeerDependencies:
       - '@75lb/nature'
