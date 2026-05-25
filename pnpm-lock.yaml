@@ -136,8 +136,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0
       taze:
-        specifier: ^19.13.0
-        version: 19.13.0
+        specifier: ^19.14.0
+        version: 19.14.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -4272,8 +4272,8 @@ packages:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
     engines: {node: '>=6'}
 
-  taze@19.13.0:
-    resolution: {integrity: sha512-c292FM06B4zyWl9Tas5pRvv+e8Che9LCxT6U95SyhUwqbEo7Bc+BRTvLKldkVwcAmZySYwA7atveuqSS9QYzcw==}
+  taze@19.14.0:
+    resolution: {integrity: sha512-V/V2yiSrwRrjeM3N1B3pirNCnNonPoQHIJEY+H0Zdsm1LBTEj8ry+oji4gfFELjoUGLXRStYjUInF/h1oKIaYg==}
     hasBin: true
 
   texture-compressor@1.0.2:
@@ -9487,12 +9487,11 @@ snapshots:
 
   tapable@2.3.3: {}
 
-  taze@19.13.0:
+  taze@19.14.0:
     dependencies:
       '@antfu/ni': 30.1.0
       '@henrygd/queue': 1.2.0
       cac: 7.0.0
-      find-up-simple: 1.0.1
       ofetch: 1.5.1
       package-manager-detector: 1.6.0
       pathe: 2.0.3
