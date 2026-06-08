@@ -85,7 +85,7 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.3.0)
       '@maplibre/maplibre-gl-style-spec':
-        specifier: ^24.8.5
+        specifier: ^24.9.0
         version: 24.9.0
       '@rsbuild/core':
         specifier: ^2.0.11
