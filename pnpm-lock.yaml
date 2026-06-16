@@ -27,7 +27,7 @@ importers:
         specifier: ^4.4.2
         version: 4.4.3(@loaders.gl/core@4.4.3)
       '@loaders.gl/core':
-        specifier: ^4.4.2
+        specifier: ^4.4.3
         version: 4.4.3
       '@loaders.gl/csv':
         specifier: ^4.4.2
