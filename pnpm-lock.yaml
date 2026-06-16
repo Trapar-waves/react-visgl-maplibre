@@ -24,7 +24,7 @@ importers:
         specifier: ^9.3.4
         version: 9.3.4(@deck.gl/core@9.3.4)(@deck.gl/widgets@9.3.4(@deck.gl/core@9.3.4)(@luma.gl/core@9.3.4))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@loaders.gl/3d-tiles':
-        specifier: ^4.4.2
+        specifier: ^4.4.3
         version: 4.4.3(@loaders.gl/core@4.4.3)
       '@loaders.gl/core':
         specifier: ^4.4.3
