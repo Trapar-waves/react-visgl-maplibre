@@ -36,7 +36,7 @@ importers:
         specifier: ^4.4.3
         version: 4.4.3(@loaders.gl/core@4.4.3)
       '@luma.gl/core':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4
       '@luma.gl/webgl':
         specifier: ^9.3.3
