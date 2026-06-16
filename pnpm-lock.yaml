@@ -9,19 +9,19 @@ importers:
   .:
     dependencies:
       '@deck.gl/aggregation-layers':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@deck.gl/core@9.3.4)(@deck.gl/layers@9.3.4(@deck.gl/core@9.3.4)(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4))))(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))
       '@deck.gl/core':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4
       '@deck.gl/geo-layers':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@deck.gl/core@9.3.4)(@deck.gl/extensions@9.3.4(@deck.gl/core@9.3.4)(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4))))(@deck.gl/layers@9.3.4(@deck.gl/core@9.3.4)(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4))))(@deck.gl/mesh-layers@9.3.4(@deck.gl/core@9.3.4)(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@luma.gl/gltf@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))
       '@deck.gl/mapbox':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@deck.gl/core@9.3.4)(@luma.gl/core@9.3.4)(@math.gl/web-mercator@4.1.0)
       '@deck.gl/react':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@deck.gl/core@9.3.4)(@deck.gl/widgets@9.3.4(@deck.gl/core@9.3.4)(@luma.gl/core@9.3.4))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@loaders.gl/3d-tiles':
         specifier: ^4.4.2
@@ -48,7 +48,7 @@ importers:
         specifier: ^9.6.1
         version: 9.6.1(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(three@0.184.0)
       deck.gl:
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@arcgis/core@4.34.8)(@luma.gl/gltf@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.4)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.4))(@luma.gl/webgl@9.3.4(@luma.gl/core@9.3.4))(@math.gl/web-mercator@4.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       maplibre-gl:
         specifier: ^5.24.0
