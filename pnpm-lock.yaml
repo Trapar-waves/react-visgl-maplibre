@@ -33,7 +33,7 @@ importers:
         specifier: ^4.4.3
         version: 4.4.3(@loaders.gl/core@4.4.3)
       '@loaders.gl/tiles':
-        specifier: ^4.4.2
+        specifier: ^4.4.3
         version: 4.4.3(@loaders.gl/core@4.4.3)
       '@luma.gl/core':
         specifier: ^9.3.3
