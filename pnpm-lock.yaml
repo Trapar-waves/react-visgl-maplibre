@@ -39,7 +39,7 @@ importers:
         specifier: ^9.3.4
         version: 9.3.4
       '@luma.gl/webgl':
-        specifier: ^9.3.3
+        specifier: ^9.3.4
         version: 9.3.4(@luma.gl/core@9.3.4)
       '@react-three/drei':
         specifier: ^10.7.7
