@@ -79,7 +79,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.7",
+    "lint-staged": "^17.0.8",
     "mapbox-gl": "^3.25.0",
     "tailwindcss": "^4.3.1",
     "taze": "^19.14.1",
