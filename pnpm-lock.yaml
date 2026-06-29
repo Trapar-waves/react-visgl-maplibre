@@ -85,8 +85,8 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.3.1)
       '@maplibre/maplibre-gl-style-spec':
-        specifier: ^25.0.0
-        version: 25.0.0
+        specifier: ^25.0.1
+        version: 25.0.1
       '@rsbuild/core':
         specifier: ^2.1.1
         version: 2.1.1
@@ -815,6 +815,10 @@ packages:
     resolution: {integrity: sha512-rY0o9A5ECsTQRVhv7tL/OyDpGAoUB4tTvLiW1DSzQGq4bvTPhNw1VpSNjDJc5GFZ2XuyOtSWSVN05qOtcD71qQ==}
     engines: {node: '>= 0.6'}
 
+  '@mapbox/jsonlint-lines-primitives@2.0.3':
+    resolution: {integrity: sha512-0SElaV0uMxEnxzBhhX9WTuPyUeMsAN/SS0i16tjuba4/mio63MG9khjC1a0JAiPGXAwvwm4UfHJURCN7nyudQg==}
+    engines: {node: '>= 22'}
+
   '@mapbox/martini@0.2.0':
     resolution: {integrity: sha512-7hFhtkb0KTLEls+TRw/rWayq5EeHtTaErgm/NskVoXmtgAQu/9D299aeyj6mzAR/6XUnYRp2lU+4IcrYRFjVsQ==}
 
@@ -854,8 +858,8 @@ packages:
     resolution: {integrity: sha512-lichxSiagMEBBrqHF0trtMQH9RKh+9jUlIJl0qW0QHvt2H/tbvUWdE+ZzI2Jd0/pT7j/iavLonlPu7EQ/ixTOw==}
     hasBin: true
 
-  '@maplibre/maplibre-gl-style-spec@25.0.0':
-    resolution: {integrity: sha512-dgubbApKQmLR3TSNRlynStMjASTSxdiK+KH6xRA8WwIoMK2jQrBpNE5siIUGJ+oNXR7OHMy6XSQqgxvwcGAPEw==}
+  '@maplibre/maplibre-gl-style-spec@25.0.1':
+    resolution: {integrity: sha512-cppei6MsmpZnBgtZoHwQu8Ioie6LcHC+ME8/wcLDwzdLi6eWnMgoryiWnd00qQ5ZNTmFcAnw5EMZIqZxMamEBQ==}
     hasBin: true
 
   '@maplibre/mlt@1.1.11':
@@ -5724,6 +5728,8 @@ snapshots:
 
   '@mapbox/jsonlint-lines-primitives@2.0.2': {}
 
+  '@mapbox/jsonlint-lines-primitives@2.0.3': {}
+
   '@mapbox/martini@0.2.0': {}
 
   '@mapbox/point-geometry@0.1.0': {}
@@ -5770,9 +5776,9 @@ snapshots:
       quickselect: 3.0.0
       tinyqueue: 3.0.0
 
-  '@maplibre/maplibre-gl-style-spec@25.0.0':
+  '@maplibre/maplibre-gl-style-spec@25.0.1':
     dependencies:
-      '@mapbox/jsonlint-lines-primitives': 2.0.2
+      '@mapbox/jsonlint-lines-primitives': 2.0.3
       '@mapbox/unitbezier': 1.0.0
       json-stringify-pretty-compact: 4.0.0
       minimist: 1.2.8
