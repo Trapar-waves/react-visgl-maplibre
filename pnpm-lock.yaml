@@ -76,7 +76,7 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(@eslint-react/eslint-plugin@5.10.3(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/rule-tester@8.61.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.62.1(typescript@6.0.3))(@typescript-eslint/utils@8.62.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(@vue/compiler-sfc@3.5.38)(eslint-plugin-format@2.0.1(eslint@10.6.0(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.3(eslint@10.6.0(jiti@2.7.0)))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
       '@eslint-react/eslint-plugin':
-        specifier: ^5.10.1
+        specifier: ^5.10.3
         version: 5.10.3(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
       '@iconify/json':
         specifier: ^2.2.494
@@ -803,11 +803,6 @@ packages:
 
   '@luma.gl/shadertools@9.3.4':
     resolution: {integrity: sha512-6JszXZ1uBpwkfvgqe9l64fuxjduJSNndzDb9IitqTNLapF5ioM3ISDpWF4qRluCaLd9lvNgGPgpc48xrO27KZw==}
-    peerDependencies:
-      '@luma.gl/core': ~9.3.0
-
-  '@luma.gl/webgl@9.3.5':
-    resolution: {integrity: sha512-dxx7rsDI1fx3rzCLrdbAmG0ILejvpYEyKtqbTRAsSuPY/4gKnsXGi8n5GdlxJigA/3d4DbVRM8U7RV7l/PqmlA==}
     peerDependencies:
       '@luma.gl/core': ~9.3.0
 
@@ -5061,7 +5056,7 @@ snapshots:
       '@luma.gl/core': 9.3.5
       '@luma.gl/engine': 9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5))
       '@luma.gl/shadertools': 9.3.4(@luma.gl/core@9.3.5)
-      '@luma.gl/webgl': 9.3.5(@luma.gl/core@9.3.5)
+      '@luma.gl/webgl': 9.3.6(@luma.gl/core@9.3.5)
       '@math.gl/core': 4.1.0
 
   '@deck.gl/geo-layers@9.3.5(@deck.gl/core@9.3.5)(@deck.gl/extensions@9.3.5(@deck.gl/core@9.3.5)(@luma.gl/core@9.3.5)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5))))(@deck.gl/layers@9.3.5(@deck.gl/core@9.3.5)(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.5)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5))))(@deck.gl/mesh-layers@9.3.5(@deck.gl/core@9.3.5)(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.5)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5)))(@luma.gl/gltf@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5)))(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5)))(@loaders.gl/core@4.4.3)(@luma.gl/core@9.3.5)(@luma.gl/engine@9.3.4(@luma.gl/core@9.3.5)(@luma.gl/shadertools@9.3.4(@luma.gl/core@9.3.5)))':
@@ -5777,12 +5772,6 @@ snapshots:
       '@luma.gl/core': 9.3.5
       '@math.gl/core': 4.1.0
       '@math.gl/types': 4.1.0
-
-  '@luma.gl/webgl@9.3.5(@luma.gl/core@9.3.5)':
-    dependencies:
-      '@luma.gl/core': 9.3.5
-      '@math.gl/types': 4.1.0
-      '@probe.gl/env': 4.1.1
 
   '@luma.gl/webgl@9.3.6(@luma.gl/core@9.3.5)':
     dependencies:
@@ -6764,8 +6753,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.61.1(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.62.0(typescript@6.0.3)
-      '@typescript-eslint/types': 8.62.0
+      '@typescript-eslint/tsconfig-utils': 8.62.1(typescript@6.0.3)
+      '@typescript-eslint/types': 8.62.1
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -6773,8 +6762,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.62.0(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.62.0(typescript@6.0.3)
-      '@typescript-eslint/types': 8.62.0
+      '@typescript-eslint/tsconfig-utils': 8.62.1(typescript@6.0.3)
+      '@typescript-eslint/types': 8.62.1
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
