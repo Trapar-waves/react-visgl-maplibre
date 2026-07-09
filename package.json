@@ -84,6 +84,6 @@
     "tailwindcss": "^4.3.2",
     "taze": "^19.14.1",
     "typescript": "^6.0.3",
-    "unplugin-turbo-console": "^2.3.2"
+    "unplugin-turbo-console": "^2.3.3"
   }
 }
