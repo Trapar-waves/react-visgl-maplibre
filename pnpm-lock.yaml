@@ -85,8 +85,8 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.3.3)
       '@maplibre/maplibre-gl-style-spec':
-        specifier: ^25.0.2
-        version: 25.0.2
+        specifier: ^26.1.0
+        version: 26.1.0
       '@rsbuild/core':
         specifier: ^2.1.6
         version: 2.1.6
@@ -858,8 +858,8 @@ packages:
     resolution: {integrity: sha512-lichxSiagMEBBrqHF0trtMQH9RKh+9jUlIJl0qW0QHvt2H/tbvUWdE+ZzI2Jd0/pT7j/iavLonlPu7EQ/ixTOw==}
     hasBin: true
 
-  '@maplibre/maplibre-gl-style-spec@25.0.2':
-    resolution: {integrity: sha512-hTNlIVG1gaLKz6UvOV23PYcT8wVS69LLMK9jbGT2hDWzs6hlTbMejeMyQsAF0rebj9czVp77Vhp4KRaUHHUp9g==}
+  '@maplibre/maplibre-gl-style-spec@26.1.0':
+    resolution: {integrity: sha512-JaVj0XqDWFb2xfaRFCvF2Gi7qSpCYXXJlVghDDfRUV2dks61YsQKDjlZKT3H+oVwFBxX7CjErz9zjdGTEP/Lug==}
     hasBin: true
 
   '@maplibre/mlt@1.1.11':
@@ -5822,7 +5822,7 @@ snapshots:
       quickselect: 3.0.0
       tinyqueue: 3.0.0
 
-  '@maplibre/maplibre-gl-style-spec@25.0.2':
+  '@maplibre/maplibre-gl-style-spec@26.1.0':
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.3
       '@mapbox/unitbezier': 1.0.0
