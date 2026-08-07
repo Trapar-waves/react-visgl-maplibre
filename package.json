@@ -82,7 +82,7 @@
     "lint-staged": "^17.3.0",
     "mapbox-gl": "^3.27.0",
     "tailwindcss": "^4.3.3",
-    "taze": "^19.16.0",
+    "taze": "^20.0.0",
     "typescript": "^7.0.2",
     "unplugin-turbo-console": "^2.3.3"
   }
