@@ -13,6 +13,10 @@
 
 > 一个基于 React 的地理空间可视化模板，集成了 Three.js、Deck.gl 和 MapLibre，用于 3D 地图交互和丰富的地理空间数据渲染。
 
+![react-visgl-maplibre hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **集成地理空间技术栈：** 结合 MapLibre GL JS 用于矢量地图、Deck.gl 用于高性能 WebGL 可视化图层、Three.js 用于自定义 3D 对象，全部运行在 React 环境中。
@@ -25,6 +29,8 @@
   - 完整的 TypeScript 类型支持，提升代码质量和开发体验。
   - 使用 ESLint 进行代码检查和格式化。
   - 通过 Husky 集成 Git hooks 进行代码质量检查。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技术栈
 
@@ -39,6 +45,8 @@
 - **开发语言：** `TypeScript` — 静态类型检查。
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -67,6 +75,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -83,6 +93,8 @@
 └── package.json        # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -92,6 +104,8 @@
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

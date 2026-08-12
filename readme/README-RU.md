@@ -13,6 +13,10 @@
 
 > Шаблон геопространственной визуализации на основе React, интегрирующий Three.js, Deck.gl и MapLibre для 3D-взаимодействия с картами и богатого рендеринга геопространственных данных.
 
+![react-visgl-maplibre hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Возможности
 
 - **Интегрированный геопространственный стек:** Объединяет MapLibre GL JS для векторных карт, Deck.gl для высокопроизводительных слоев визуализации на основе WebGL и Three.js для пользовательских 3D-объектов в среде React.
@@ -25,6 +29,8 @@
   - Полная поддержка TypeScript для повышения качества кода и удобства разработки.
   - Линтинг и форматирование с ESLint.
   - Git hooks с Husky для проверки качества кода.
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 Технический стек
 
@@ -39,6 +45,8 @@
 - **Язык разработки:** `TypeScript` — статическая проверка типов.
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -67,6 +75,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -83,6 +93,8 @@
 └── package.json        # Зависимости и скрипты проекта
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
@@ -92,6 +104,8 @@
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 
