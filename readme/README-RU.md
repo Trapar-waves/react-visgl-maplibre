@@ -9,130 +9,100 @@
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md)
+[English](../README.md) | [中文](./README-CN.md) | [日本語](./README-JP.md)
 
-> Three.js, Deck.gl и MapLibre интегрированы в шаблон визуализации геопространственных данных на базе React для 3D-картографических взаимодействий и рендеринга насыщенных геопространственных данных.
+> Шаблон геопространственной визуализации на основе React, интегрирующий Three.js, Deck.gl и MapLibre для 3D-взаимодействия с картами и богатого рендеринга геопространственных данных.
 
-## ✨ Особенности
+## ✨ Возможности
 
-- **Интегрированный геопространственный стек:** сочетает MapLibre GL JS для векторных карт, Deck.gl для высокопроизводительных слоев визуализации на базе WebGL и Three.js для пользовательских 3D-объектов, все это в среде React.
-- **React Three Fiber и react-three-map:** использует `@react-three/fiber` для декларативных сцен Three.js и `react-three-map` для синхронизации объектов Three.js с движениями и рельефом карты MapLibre.
-- **Слои и эффекты Deck.gl:** поддерживает широкий спектр слоев Deck.gl (например, HexagonLayer для агрегирования) и эффекты (например, освещение) для расширенной визуализации данных.
-- **Загрузка данных:** включает `@loaders.gl` для эффективной загрузки и разбора различных форматов данных, таких как CSV и 3D Tiles.
+- **Интегрированный геопространственный стек:** Объединяет MapLibre GL JS для векторных карт, Deck.gl для высокопроизводительных слоев визуализации на основе WebGL и Three.js для пользовательских 3D-объектов в среде React.
+- **React Three Fiber и react-three-map:** Использует `@react-three/fiber` для декларативных сцен Three.js и `react-three-map` для синхронизации 3D-объектов с перемещением и рельефом карты MapLibre.
+- **Слои и эффекты Deck.gl:** Поддерживает широкий спектр слоев Deck.gl (например, HexagonLayer для агрегации) и эффектов (например, освещение) для продвинутой визуализации данных.
+- **Загрузка данных:** Использует `@loaders.gl` для эффективной загрузки и парсинга различных форматов данных, таких как CSV и 3D Tiles.
 - **Современный опыт разработки:**
-  - Создан с помощью Rsbuild для быстрой HMR и оптимизированных сборок.
-  - Стилизован с помощью Tailwind CSS для быстрой разработки пользовательского интерфейса.
-  - Полностью типизирован с помощью TypeScript для повышения надежности кода и удобства разработчика.
-  - Проверка и форматирование с помощью ESLint.
+  - Сборка на Rsbuild для быстрого HMR и оптимизированных билдов.
+  - Стилизация с Tailwind CSS для быстрой разработки UI.
+  - Полная поддержка TypeScript для повышения качества кода и удобства разработки.
+  - Линтинг и форматирование с ESLint.
   - Git hooks с Husky для проверки качества кода.
 
-## 💻 Технологический стек
+## 💻 Технический стек
 
-- **Основные библиотеки:**
-  - React (v18+)
-  - MapLibre GL JS
-  - Deck.gl
-  - Three.js
-  - React Three Fiber (`@react-three/fiber`)
-  - React Three Map (`react-three-map`)
-- **Пользовательский интерфейс и стилизация:**
-  - Tailwind CSS
-- **Инструменты сборки и разработки:**
-  - Rsbuild
-  - TypeScript
-  - ESLint
-  - Husky
-- **Загрузка данных:**
-  - `@loaders.gl/core`
-  - `@loaders.gl/csv`
+- **UI фреймворк:** `React` (v19) — ядро для компонентной разработки.
+- **Движок карт:** `MapLibre GL JS` — рендеринг векторных карт с открытым исходным кодом.
+- **Слой визуализации:** `Deck.gl` — высокопроизводительные слои визуализации данных на WebGL2.
+- **3D рендеринг:** `Three.js` и `React Three Fiber` — декларативный 3D-граф сцены.
+- **Мост карта-3D:** `react-three-map` — синхронизация 3D-объектов с камерой карты.
+- **Загрузка данных:** `@loaders.gl` — модульный фреймворк для парсинга CSV, 3D Tiles и др.
+- **Инструмент сборки:** `Rsbuild` — быстрый инструмент сборки на основе Rspack.
+- **Стилизация:** `Tailwind CSS` — утилитарный CSS-фреймворк.
+- **Язык разработки:** `TypeScript` — статическая проверка типов.
 
-_(Полный список зависимостей см. в [package.json](package.json))_
+Полный список зависимостей смотрите в [package.json](../package.json).
 
 ## 🚀 Начало работы
 
-Этот шаблон предназначен для использования с `create-trapar-waves`, но вы также можете клонировать и запустить его напрямую.
-
-### Необходимые условия
+### Предварительные требования
 
 - Node.js (рекомендуется >= 18.x)
-- pnpm (рекомендуется), npm или yarn
+- Менеджер пакетов (npm, yarn или pnpm)
 
-```bash
-node -v
-pnpm -v # или npm -v
-```
+### Установка
 
-### Прямой запуск шаблона
-
-1. **Клонируйте репозиторий:**
+1. Создайте новый проект с помощью шаблона:
 
    ```bash
-   git clone https://github.com/Trapar-waves/react-visgl-maplibre.git
-   cd react-visgl-maplibre
+   pnpm create trapar-waves
    ```
 
-2. **Установите зависимости:**
+2. Перейдите в директорию проекта и установите зависимости:
 
    ```bash
    pnpm install
-   # или
-   # npm install
-   # yarn install
    ```
 
-3. **Запустите сервер разработки:**
+3. Запустите сервер разработки:
 
    ```bash
    pnpm dev
-   # или
-   # npm run dev
-   # yarn dev
    ```
 
-   Это запустит сервер разработки Rsbuild и откроет приложение в вашем браузере по умолчанию.
-
-### Использование шаблона через `create-trapar-waves`
-
-```bash
-pnpm create trapar-waves
-```
-
-Следуйте подсказкам, чтобы выбрать этот шаблон.
-
-## 🧱 Структура проекта
+## 📁 Структура проекта
 
 ```
-src/
-├── App.tsx          # Основной компонент приложения
-├── index.tsx        # Точка входа для React-приложения
-├── deckgl/          # Конфигурация слоя и оверлея Deck.gl
-├── source/          # Компоненты источника карты MapLibre
-└── global.css       # Глобальные стили (импорт Tailwind)
+├── public/             # Статические ресурсы
+├── src/                # Исходный код
+│   ├── App.tsx         # Основной компонент приложения
+│   ├── index.tsx       # Точка входа React-приложения
+│   ├── deckgl/         # Конфигурация слоев и оверлеев Deck.gl
+│   ├── source/         # Компоненты источников карты MapLibre
+│   └── global.css      # Глобальные стили (импорты Tailwind)
+├── rsbuild.config.ts   # Конфигурация Rsbuild
+├── tsconfig.json       # Конфигурация TypeScript
+├── eslint.config.js    # Конфигурация ESLint
+└── package.json        # Зависимости и скрипты проекта
 ```
 
-- `App.tsx`: основной компонент приложения, демонстрирующий интеграцию. Он настраивает карту MapLibre с рельефом и синхронизированный холст Three.js. Deck.gl `HexagonLayer` накладывается для визуализации тепловой карты.
-- `deckgl/`: содержит конфигурацию слоев Deck.gl (`heatmapLayer`) и экземпляр `MapboxOverlay` (`deckOverlay`), который связывает Deck.gl с MapLibre.
-- `source/`: определяет пользовательские источники карт для карты MapLibre, такие как рельеф и DEM холмов.
+## 🤝 Участие в разработке
 
-## 🤝 Вклад
+Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
-Вклад приветствуется и высоко ценится!
-
-1. Форкните репозиторий
-2. Создайте свою ветку с функцией (`git checkout -b feature/amazing-feature`)
-3. Зафиксируйте свои изменения (`git commit -m 'Add some amazing feature'`)
-4. Запушьте в ветку (`git push origin feature/amazing-feature`)
+1. Fork репозиторий
+2. Создайте ветку для новой функции (`git checkout -b feature/amazing-feature`)
+3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
+4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
 
-Убедитесь, что ваш код соответствует существующему стилю и проходит проверки линтера.
+## 📄 Лицензия
+
+MIT License © 2025 Trapar Waves
 
 ## 👤 Автор
 
-- **Rikka:** (admin@rikka.cc)
-- **Профиль на GitHub:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **Профиль GitHub:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Ссылки
 
 - **Репозиторий:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
-- **Домашняя страница:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
-- **Вопросы:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)
+- **Issues:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)

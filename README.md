@@ -9,7 +9,7 @@
 
 ---
 
-[中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
 > A React-based geospatial visualization template integrating Three.js, Deck.gl, and MapLibre for 3D map interactions and rich geospatial data rendering.
 
@@ -26,111 +26,66 @@
   - Linting and formatting with ESLint.
   - Git hooks with Husky for code quality checks.
 
-## GitHub Pages
-
-Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
-
-```bash
-BASE_PATH=/react-visgl-maplibre/ pnpm run build && pnpm preview
-```
-
-PowerShell:
-
-```powershell
-$env:BASE_PATH="/react-visgl-maplibre/"; pnpm run build; pnpm preview
-```
-
 ## 💻 Tech Stack
 
-- **Core Libraries:**
-  - React (v18+)
-  - MapLibre GL JS
-  - Deck.gl
-  - Three.js
-  - React Three Fiber (`@react-three/fiber`)
-  - React Three Map (`react-three-map`)
-- **UI & Styling:**
-  - Tailwind CSS
-- **Build & Dev Tools:**
-  - Rsbuild
-  - TypeScript
-  - ESLint
-  - Husky
-- **Data Loading:**
-  - `@loaders.gl/core`
-  - `@loaders.gl/csv`
+- **UI Framework:** `React` (v19) — Core for component-based development.
+- **Map Engine:** `MapLibre GL JS` — Open-source vector map rendering.
+- **Visualization:** `Deck.gl` — High-performance WebGL2 data visualization layers.
+- **3D Rendering:** `Three.js` & `React Three Fiber` — Declarative 3D scene graph.
+- **Map-3D Bridge:** `react-three-map` — Synchronizes Three.js objects with map camera.
+- **Data Loading:** `@loaders.gl` — Modular framework for parsing CSV, 3D Tiles, and more.
+- **Build Tool:** `Rsbuild` — Fast build tool based on Rspack.
+- **Styling:** `Tailwind CSS` — Utility-first CSS framework.
+- **Language:** `TypeScript` — Static type checking.
 
-_(See [package.json](package.json) for a complete list of dependencies)_
+See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
-
-This template is designed to be used with `create-trapar-waves`, but you can also clone and run it directly.
 
 ### Prerequisites
 
 - Node.js (>= 18.x recommended)
-- pnpm (recommended), npm, or yarn
+- Package manager (npm, yarn, or pnpm)
 
-```bash
-node -v
-pnpm -v # or npm -v
-```
+### Installation
 
-### Running the Template Directly
-
-1. **Clone the repository:**
+1. Create a new project using the template:
 
    ```bash
-   git clone https://github.com/Trapar-waves/react-visgl-maplibre.git
-   cd react-visgl-maplibre
+   pnpm create trapar-waves
    ```
 
-2. **Install dependencies:**
+2. Navigate to your project directory and install dependencies:
 
    ```bash
    pnpm install
-   # or
-   # npm install
-   # yarn install
    ```
 
-3. **Start the development server:**
+3. Start the development server:
 
    ```bash
    pnpm dev
-   # or
-   # npm run dev
-   # yarn dev
    ```
 
-   This will start the Rsbuild dev server and open the app in your default browser.
-
-### Using the Template via `create-trapar-waves`
-
-```bash
-pnpm create trapar-waves
-```
-
-Follow the prompts to select this template.
-
-## 🧱 Project Structure
+## 📁 Project Structure
 
 ```
-src/
-├── App.tsx          # Main application component
-├── index.tsx        # Entry point for React app
-├── deckgl/          # Deck.gl layer and overlay configuration
-├── source/          # MapLibre map source components
-└── global.css       # Global styles (Tailwind imports)
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── App.tsx         # Main application component
+│   ├── index.tsx       # Entry point for React app
+│   ├── deckgl/         # Deck.gl layer and overlay configuration
+│   ├── source/         # MapLibre map source components
+│   └── global.css      # Global styles (Tailwind imports)
+├── rsbuild.config.ts   # Rsbuild configuration
+├── tsconfig.json       # TypeScript configuration
+├── eslint.config.js    # ESLint configuration
+└── package.json        # Project dependencies and scripts
 ```
-
-- `App.tsx`: The main application component demonstrating the integration. It sets up a MapLibre map with terrain and a synchronized Three.js canvas. A Deck.gl `HexagonLayer` is overlaid for heatmap visualization.
-- `deckgl/`: Contains the configuration for Deck.gl layers (`heatmapLayer`) and the `MapboxOverlay` instance (`deckOverlay`) which bridges Deck.gl with MapLibre.
-- `source/`: Defines custom map sources for the MapLibre map, such as terrain and hillshade DEMs.
 
 ## 🤝 Contributing
 
-Contributions are welcome and greatly appreciated!
+Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -138,15 +93,16 @@ Contributions are welcome and greatly appreciated!
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please ensure your code adheres to the existing style and passes linting checks.
+## 📄 License
+
+MIT License © 2025 Trapar Waves
 
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
 - **Repository:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
-- **Homepage:** [https://github.com/Trapar-waves/react-visgl-maplibre](https://github.com/Trapar-waves/react-visgl-maplibre)
 - **Issues:** [https://github.com/Trapar-waves/react-visgl-maplibre/issues](https://github.com/Trapar-waves/react-visgl-maplibre/issues)
