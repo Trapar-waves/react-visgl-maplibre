@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Integrated Geospatial Stack:** Combines MapLibre GL JS for vector maps, Deck.gl for high-performance WebGL-based visualization layers, and Three.js for custom 3D objects, all within a React environment.
 - **React Three Fiber & react-three-map:** Uses `@react-three/fiber` for declarative Three.js scenes and `react-three-map` to synchronize Three.js objects with MapLibre map movements and terrain.
 - **Deck.gl Layers & Effects:** Supports a wide range of Deck.gl layers (e.g., HexagonLayer for aggregations) and effects (e.g., lighting) for advanced data visualization.
@@ -31,8 +29,6 @@
   - Git hooks with Husky for code quality checks.
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
-
-## 💻 Tech Stack
 
 - **UI Framework:** `React` (v19) — Core for component-based development.
 - **Map Engine:** `MapLibre GL JS` — Open-source vector map rendering.
@@ -47,8 +43,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -77,8 +71,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── public/             # Static assets
 ├── src/                # Source code
@@ -95,8 +87,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -106,8 +96,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

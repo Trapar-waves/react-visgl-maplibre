@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **統合地理空間スタック：** MapLibre GL JS によるベクトルマップ、Deck.gl による高性能 WebGL ベースの可視化レイヤー、Three.js によるカスタム 3D オブジェクトを React 環境内で統合。
 - **React Three Fiber と react-three-map：** `@react-three/fiber` による宣言的 Three.js シーンと `react-three-map` による Three.js オブジェクトと MapLibre マップの移動・地形の同期。
 - **Deck.gl レイヤーとエフェクト：** 集計用 HexagonLayer などの Deck.gl レイヤーやライティングなどのエフェクトに対応し、高度なデータ可視化を実現。
@@ -31,8 +29,6 @@
   - Husky による Git hooks でコード品質チェック。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技術スタック
 
 - **UI フレームワーク：** `React` (v19) — コンポーネントベース開発のコア。
 - **マップエンジン：** `MapLibre GL JS` — オープンソースベクトルマップレンダリング。
@@ -47,8 +43,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -77,8 +71,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── public/             # 静的アセット
 ├── src/                # ソースコード
@@ -95,8 +87,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -106,8 +96,6 @@
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 

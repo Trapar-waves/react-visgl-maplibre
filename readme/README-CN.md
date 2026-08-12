@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **集成地理空间技术栈：** 结合 MapLibre GL JS 用于矢量地图、Deck.gl 用于高性能 WebGL 可视化图层、Three.js 用于自定义 3D 对象，全部运行在 React 环境中。
 - **React Three Fiber 与 react-three-map：** 使用 `@react-three/fiber` 实现声明式 Three.js 场景，通过 `react-three-map` 将 Three.js 对象与 MapLibre 地图移动和地形同步。
 - **Deck.gl 图层与效果：** 支持多种 Deck.gl 图层（如用于聚合的 HexagonLayer）和效果（如光照），实现高级数据可视化。
@@ -31,8 +29,6 @@
   - 通过 Husky 集成 Git hooks 进行代码质量检查。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技术栈
 
 - **UI 框架：** `React` (v19) — 组件化开发核心。
 - **地图引擎：** `MapLibre GL JS` — 开源矢量地图渲染。
@@ -47,8 +43,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -77,8 +71,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── public/             # 静态资源
 ├── src/                # 源代码
@@ -95,8 +87,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -106,8 +96,6 @@
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 

@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Возможности
-
 - **Интегрированный геопространственный стек:** Объединяет MapLibre GL JS для векторных карт, Deck.gl для высокопроизводительных слоев визуализации на основе WebGL и Three.js для пользовательских 3D-объектов в среде React.
 - **React Three Fiber и react-three-map:** Использует `@react-three/fiber` для декларативных сцен Three.js и `react-three-map` для синхронизации 3D-объектов с перемещением и рельефом карты MapLibre.
 - **Слои и эффекты Deck.gl:** Поддерживает широкий спектр слоев Deck.gl (например, HexagonLayer для агрегации) и эффектов (например, освещение) для продвинутой визуализации данных.
@@ -31,8 +29,6 @@
   - Git hooks с Husky для проверки качества кода.
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 Технический стек
 
 - **UI фреймворк:** `React` (v19) — ядро для компонентной разработки.
 - **Движок карт:** `MapLibre GL JS` — рендеринг векторных карт с открытым исходным кодом.
@@ -47,8 +43,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -77,8 +71,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── public/             # Статические ресурсы
 ├── src/                # Исходный код
@@ -95,8 +87,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
 1. Fork репозиторий
@@ -106,8 +96,6 @@
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2025 Trapar Waves
 
