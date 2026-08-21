@@ -33,8 +33,8 @@ importers:
         specifier: ^4.4.4
         version: 4.4.4(@loaders.gl/core@4.4.4)
       '@loaders.gl/tiles':
-        specifier: ^4.4.4
-        version: 4.4.4(@loaders.gl/core@4.4.4)
+        specifier: ^4.4.5
+        version: 4.4.5(@loaders.gl/core@4.4.4)
       '@luma.gl/core':
         specifier: ^9.3.6
         version: 9.3.6
@@ -742,8 +742,16 @@ packages:
   '@loaders.gl/loader-utils@4.4.4':
     resolution: {integrity: sha512-+0IizJUB6GvPQjl2xC2V1vpcMPcidZykWy27LFnIIqG1lesxfALnFmRoq9MjbOj2TPcUo7VSBxl8z55qRlX0rQ==}
 
+  '@loaders.gl/loader-utils@4.4.5':
+    resolution: {integrity: sha512-c4h2RUMEru+hbfvgZEIy5cLQKyQka2TPQZW/2Wy+yIPr3FU7RKwfp+vLwIfir6Xkdn2zniWyWretZwE02aY/Ug==}
+
   '@loaders.gl/math@4.4.4':
     resolution: {integrity: sha512-cKouXGDpQZQRXJIqt/SelsC5XbslhhSSlFof9fXnS17uX9KROq0Wtt70k0kr+PIG8kFgTerrdcGNM3DIqpQ/hQ==}
+    peerDependencies:
+      '@loaders.gl/core': ~4.4.0
+
+  '@loaders.gl/math@4.4.5':
+    resolution: {integrity: sha512-Az7rMw7oMNMzi1bXgPaabdkpPtk0safkWBr+I+dHjZHzny1RK5mFF4VjRkalw++DZBKbL0TskMw/OcdiRaL/Bw==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -760,6 +768,9 @@ packages:
   '@loaders.gl/schema@4.4.4':
     resolution: {integrity: sha512-3spgUoN505V2OprDDzww5nhWfn8Htupcfdr+/lxswAhCbGjwM3RWzA3Zif3dW6ZxOCeSIRJ4GNON78Eiede2dw==}
 
+  '@loaders.gl/schema@4.4.5':
+    resolution: {integrity: sha512-q2XNquegw+hX+ZEshacKYL/+FKBUIS5FHA+2Ft3JWmcNiR6umGnYCdXQhDcFCqAm8Ks87fMCV+z/zTloxaIZgQ==}
+
   '@loaders.gl/terrain@4.4.4':
     resolution: {integrity: sha512-eGOwBzmI1SVsG5zDvpi5Iw6Np3JdklOOeU/AGAC/vRU/tMqIvYk9qT77mZkR71bKQXkmBEMPRzdv6je9HEFzjg==}
     peerDependencies:
@@ -775,6 +786,11 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
+  '@loaders.gl/tiles@4.4.5':
+    resolution: {integrity: sha512-XO9NeUsukjj+90YN1GEJWOgt7rI5GIv20dCpPIYdgj299aa8iYB5DWcm1YGcOuNjGqdQNZXIgPSv6ocdN/X7Mw==}
+    peerDependencies:
+      '@loaders.gl/core': ~4.4.0
+
   '@loaders.gl/wms@4.4.4':
     resolution: {integrity: sha512-D42D69IUAXRkgDfIzobKmiaQA9ktsAzKKBE2bWSwfze+5upsTUycmBMV95qeqFl5AEXtxU92EJByA4MCvDnkpw==}
     peerDependencies:
@@ -782,6 +798,11 @@ packages:
 
   '@loaders.gl/worker-utils@4.4.4':
     resolution: {integrity: sha512-UNQCwK7tHd7Qh0K7e6Flvac8qd14SoAgaN8SOjggd5ngYqwytOQiAo5uEuhRN+r7+EqdwU+qwcpRtjYByT+RqA==}
+    peerDependencies:
+      '@loaders.gl/core': ~4.4.0
+
+  '@loaders.gl/worker-utils@4.4.5':
+    resolution: {integrity: sha512-ZQDoM6f/HpZ3Lzj6vjtPHXSvi+cUK0QG7yJz+MKWAokmeWa98WMZwswS8zkn/qNkY95rLcxh66N4Sl96+7hqAQ==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -4848,7 +4869,7 @@ snapshots:
       '@loaders.gl/loader-utils': 4.4.4(@loaders.gl/core@4.4.4)
       '@loaders.gl/mvt': 4.4.4(@loaders.gl/core@4.4.4)
       '@loaders.gl/schema': 4.4.4
-      '@loaders.gl/tiles': 4.4.4(@loaders.gl/core@4.4.4)
+      '@loaders.gl/tiles': 4.4.5(@loaders.gl/core@4.4.4)
       '@luma.gl/core': 9.3.6
       '@luma.gl/shadertools': 9.3.6(@luma.gl/core@9.3.6)
       '@math.gl/web-mercator': 4.1.0
@@ -4907,7 +4928,7 @@ snapshots:
       '@loaders.gl/mvt': 4.4.4(@loaders.gl/core@4.4.4)
       '@loaders.gl/schema': 4.4.4
       '@loaders.gl/terrain': 4.4.4(@loaders.gl/core@4.4.4)
-      '@loaders.gl/tiles': 4.4.4(@loaders.gl/core@4.4.4)
+      '@loaders.gl/tiles': 4.4.5(@loaders.gl/core@4.4.4)
       '@loaders.gl/wms': 4.4.4(@loaders.gl/core@4.4.4)
       '@luma.gl/core': 9.3.6
       '@luma.gl/engine': 9.3.6(@luma.gl/core@9.3.6)(@luma.gl/shadertools@9.3.6(@luma.gl/core@9.3.6))
@@ -5448,7 +5469,21 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
+  '@loaders.gl/loader-utils@4.4.5(@loaders.gl/core@4.4.4)':
+    dependencies:
+      '@loaders.gl/schema': 4.4.5
+      '@loaders.gl/worker-utils': 4.4.5(@loaders.gl/core@4.4.4)
+      '@probe.gl/log': 4.1.1
+      '@probe.gl/stats': 4.1.1
+    transitivePeerDependencies:
+      - '@loaders.gl/core'
+
   '@loaders.gl/math@4.4.4(@loaders.gl/core@4.4.4)':
+    dependencies:
+      '@loaders.gl/core': 4.4.4
+      '@math.gl/core': 4.1.0
+
+  '@loaders.gl/math@4.4.5(@loaders.gl/core@4.4.4)':
     dependencies:
       '@loaders.gl/core': 4.4.4
       '@math.gl/core': 4.1.0
@@ -5474,6 +5509,11 @@ snapshots:
       apache-arrow: 21.2.0
 
   '@loaders.gl/schema@4.4.4':
+    dependencies:
+      '@types/geojson': 7946.0.16
+      apache-arrow: 21.2.0
+
+  '@loaders.gl/schema@4.4.5':
     dependencies:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
@@ -5508,6 +5548,17 @@ snapshots:
       '@math.gl/web-mercator': 4.1.0
       '@probe.gl/stats': 4.1.1
 
+  '@loaders.gl/tiles@4.4.5(@loaders.gl/core@4.4.4)':
+    dependencies:
+      '@loaders.gl/core': 4.4.4
+      '@loaders.gl/loader-utils': 4.4.5(@loaders.gl/core@4.4.4)
+      '@loaders.gl/math': 4.4.5(@loaders.gl/core@4.4.4)
+      '@math.gl/core': 4.1.0
+      '@math.gl/culling': 4.1.0
+      '@math.gl/geospatial': 4.1.0
+      '@math.gl/web-mercator': 4.1.0
+      '@probe.gl/stats': 4.1.1
+
   '@loaders.gl/wms@4.4.4(@loaders.gl/core@4.4.4)':
     dependencies:
       '@loaders.gl/core': 4.4.4
@@ -5519,6 +5570,10 @@ snapshots:
       deep-strict-equal: 0.2.0
 
   '@loaders.gl/worker-utils@4.4.4(@loaders.gl/core@4.4.4)':
+    dependencies:
+      '@loaders.gl/core': 4.4.4
+
+  '@loaders.gl/worker-utils@4.4.5(@loaders.gl/core@4.4.4)':
     dependencies:
       '@loaders.gl/core': 4.4.4
 
