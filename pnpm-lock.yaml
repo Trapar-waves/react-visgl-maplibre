@@ -30,8 +30,8 @@ importers:
         specifier: ^4.4.4
         version: 4.4.4
       '@loaders.gl/csv':
-        specifier: ^4.4.4
-        version: 4.4.4(@loaders.gl/core@4.4.4)
+        specifier: ^4.4.5
+        version: 4.4.5(@loaders.gl/core@4.4.4)
       '@loaders.gl/tiles':
         specifier: ^4.4.5
         version: 4.4.5(@loaders.gl/core@4.4.4)
@@ -638,8 +638,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
-  '@loaders.gl/csv@4.4.4':
-    resolution: {integrity: sha512-xmKr2tt/xsDy6o15irYl0t6JHIPovmzBlEjQ0e6R9gXnLmQetXekXoZcCEEbVEFkDORYU69niC+l3ASg5tRDqA==}
+  '@loaders.gl/csv@4.4.5':
+    resolution: {integrity: sha512-jCsXPHpylWcWt04cgTAzDnt3xYfc5H7JSB8CjrcTB5agVg9R539c76+ygVUXsF9wXC9vnFsC+BCzkr1vt/Ta7Q==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -4694,7 +4694,7 @@ snapshots:
 
   '@carto/api-client@0.5.32':
     dependencies:
-      '@loaders.gl/schema': 4.4.4
+      '@loaders.gl/schema': 4.4.5
       '@types/geojson': 7946.0.16
       d3-format: 3.1.2
       d3-scale: 4.0.2
@@ -4831,7 +4831,7 @@ snapshots:
       '@deck.gl/core': 9.3.10
       '@loaders.gl/core': 4.4.4
       '@loaders.gl/images': 4.4.4(@loaders.gl/core@4.4.4)
-      '@loaders.gl/schema': 4.4.4
+      '@loaders.gl/schema': 4.4.5
       '@luma.gl/core': 9.3.6
       '@luma.gl/engine': 9.3.6(@luma.gl/core@9.3.6)(@luma.gl/shadertools@9.3.6(@luma.gl/core@9.3.6))
       '@luma.gl/shadertools': 9.3.6(@luma.gl/core@9.3.6)
@@ -4852,7 +4852,7 @@ snapshots:
     dependencies:
       '@deck.gl/core': 9.3.10
       '@loaders.gl/gltf': 4.4.4(@loaders.gl/core@4.4.4)
-      '@loaders.gl/schema': 4.4.4
+      '@loaders.gl/schema': 4.4.5
       '@luma.gl/core': 9.3.6
       '@luma.gl/engine': 9.3.6(@luma.gl/core@9.3.6)(@luma.gl/shadertools@9.3.6(@luma.gl/core@9.3.6))
       '@luma.gl/gltf': 9.3.6(@luma.gl/core@9.3.6)(@luma.gl/engine@9.3.6(@luma.gl/core@9.3.6)(@luma.gl/shadertools@9.3.6(@luma.gl/core@9.3.6)))(@luma.gl/shadertools@9.3.6(@luma.gl/core@9.3.6))
@@ -5284,11 +5284,11 @@ snapshots:
       '@loaders.gl/worker-utils': 4.4.4(@loaders.gl/core@4.4.4)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/csv@4.4.4(@loaders.gl/core@4.4.4)':
+  '@loaders.gl/csv@4.4.5(@loaders.gl/core@4.4.4)':
     dependencies:
       '@loaders.gl/core': 4.4.4
-      '@loaders.gl/loader-utils': 4.4.4(@loaders.gl/core@4.4.4)
-      '@loaders.gl/schema': 4.4.4
+      '@loaders.gl/loader-utils': 4.4.5(@loaders.gl/core@4.4.4)
+      '@loaders.gl/schema': 4.4.5
       d3-dsv: 1.2.0
 
   '@loaders.gl/draco@4.4.4(@loaders.gl/core@4.4.4)':
