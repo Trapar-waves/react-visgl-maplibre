@@ -1,8 +1,8 @@
-import process from "node:process";
 import { defineConfig, loadEnv } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
 import { RsdoctorRspackPlugin } from "@rsdoctor/rspack-plugin";
 import tailwind from "@tailwindcss/postcss";
+import process from "node:process";
 import TurboConsole from "unplugin-turbo-console/rspack";
 
 const { publicVars } = loadEnv({ cwd: "./environments" });
@@ -17,20 +17,18 @@ function normalizeBasePath(): string {
 }
 
 const basePath = normalizeBasePath();
-const useSubpath = basePath !== "/";
+const isUseSubpath = basePath !== "/";
 
-const enableRsdoctor = Boolean(process.env.RSDOCTOR);
-const enableTurboConsole = process.env.NODE_ENV === "development";
+const isEnableRsdoctor = Boolean(process.env.RSDOCTOR);
+const isEnableTurboConsole = process.env.NODE_ENV === "development";
 
 export default defineConfig({
-  ...(useSubpath
-    ? {
-        server: { base: basePath },
-        output: { assetPrefix: basePath },
-      }
-    : {}),
+  ...(isUseSubpath && {
+    output: { assetPrefix: basePath },
+    server: { base: basePath },
+  }),
   performance: {
-    ...(enableRsdoctor ? { buildCache: false } : {}),
+    ...(isEnableRsdoctor && { buildCache: false }),
   },
   plugins: [pluginReact()],
   source: {
@@ -44,8 +42,8 @@ export default defineConfig({
     },
     rspack: {
       plugins: [
-        ...(enableTurboConsole ? [TurboConsole()] : []),
-        ...(enableRsdoctor
+        ...(isEnableTurboConsole ? [TurboConsole()] : []),
+        ...(isEnableRsdoctor
           ? [
               new RsdoctorRspackPlugin({
                 output: {

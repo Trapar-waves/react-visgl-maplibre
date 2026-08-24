@@ -17,7 +17,7 @@ export const colorRange: Color[] = [
 
 const ambientLight = new AmbientLight({
   color: [255, 255, 255],
-  intensity: 1.0,
+  intensity: 1,
 });
 
 const pointLight1 = new PointLight({
@@ -46,15 +46,15 @@ function getTooltip({ object }: PickingInfo) {
     ${count} Accidents`;
 }
 const DATA_URL = "/heatmap-data.csv";
-const data = load(DATA_URL, CSVLoader).then((res) => {
-  const resData = res.data
+// eslint-disable-next-line unicorn/prefer-await -- deck.gl layer data must be loaded at module level
+const data = load(DATA_URL, CSVLoader).then((response) => {
+  const responseData = response.data
     .map((d: any) => (Number.isFinite(d.lng) ? [d.lng, d.lat] : null))
     .filter(Boolean) as Array<[number, number]>;
-  resData.push(...(Array.from({ length: 10000 }).map(() => [11.39085 + (Math.random() - 0.5), 47.27574 + (Math.random() - 0.5)]) as Array<[number, number]>));
-  return resData;
+  responseData.push(...(Array.from({ length: 10000 }, () => [11.39085 + (Math.random() - 0.5), 47.27574 + (Math.random() - 0.5)]) as Array<[number, number]>));
+  return responseData;
 });
 export const heatmapLayer = new HexagonLayer<DataPoint>({
-  id: "i-heatmap",
   colorRange,
   coverage: 1,
   data,
@@ -62,9 +62,7 @@ export const heatmapLayer = new HexagonLayer<DataPoint>({
   elevationScale: 50,
   extruded: true,
   getPosition: d => d,
-  pickable: true,
-  radius: 1000,
-  upperPercentile: 100,
+  id: "i-heatmap",
   material: {
     ambient: 0.64,
     diffuse: 0.6,
@@ -72,13 +70,16 @@ export const heatmapLayer = new HexagonLayer<DataPoint>({
     specularColor: [51, 51, 51],
   },
   opacity: 0.1,
+  pickable: true,
+  radius: 1000,
   transitions: {
     elevationScale: 3000,
   },
+  upperPercentile: 100,
 });
 export const deckOverlay = new MapboxOverlay({
-  interleaved: true,
-  layers: [],
   effects: [lightingEffect],
   getTooltip,
+  interleaved: true,
+  layers: [],
 });
