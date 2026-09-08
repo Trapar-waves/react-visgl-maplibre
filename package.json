@@ -83,7 +83,7 @@
     "mapbox-gl": "^3.29.0",
     "tailwindcss": "^4.3.3",
     "taze": "^21.1.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "unplugin-turbo-console": "^2.3.3"
   }
 }
