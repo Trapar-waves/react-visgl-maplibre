@@ -131,8 +131,8 @@ importers:
         specifier: ^4.4.5
         version: 4.4.5
       '@loaders.gl/csv':
-        specifier: ^4.4.5
-        version: 4.4.5(@loaders.gl/core@4.4.5)
+        specifier: ^4.5.1
+        version: 4.5.1(@loaders.gl/core@4.4.5)
       '@loaders.gl/tiles':
         specifier: ^4.4.5
         version: 4.4.5(@loaders.gl/core@4.4.5)
@@ -772,8 +772,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
-  '@loaders.gl/csv@4.4.5':
-    resolution: {integrity: sha512-jCsXPHpylWcWt04cgTAzDnt3xYfc5H7JSB8CjrcTB5agVg9R539c76+ygVUXsF9wXC9vnFsC+BCzkr1vt/Ta7Q==}
+  '@loaders.gl/csv@4.5.1':
+    resolution: {integrity: sha512-Q4RkaSKOIsYxvhdMmKQH13U3xnNHq3jz9lvTsSZqGehB/m/hurm5fV04Ovwio1eOZlkKjUy/GkuuxMv8ILOozA==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -813,6 +813,9 @@ packages:
   '@loaders.gl/loader-utils@4.4.5':
     resolution: {integrity: sha512-c4h2RUMEru+hbfvgZEIy5cLQKyQka2TPQZW/2Wy+yIPr3FU7RKwfp+vLwIfir6Xkdn2zniWyWretZwE02aY/Ug==}
 
+  '@loaders.gl/loader-utils@4.5.1':
+    resolution: {integrity: sha512-rHeG4Jz/qWJ3GrT3R00Y1y8menGCgqNUsAkDnWgbtQdHe3vXpC1KhDiQVEK+YZyD/MeeJyryAEhoTWImXsiSyg==}
+
   '@loaders.gl/math@4.4.5':
     resolution: {integrity: sha512-Az7rMw7oMNMzi1bXgPaabdkpPtk0safkWBr+I+dHjZHzny1RK5mFF4VjRkalw++DZBKbL0TskMw/OcdiRaL/Bw==}
     peerDependencies:
@@ -838,6 +841,9 @@ packages:
 
   '@loaders.gl/schema@4.4.5':
     resolution: {integrity: sha512-q2XNquegw+hX+ZEshacKYL/+FKBUIS5FHA+2Ft3JWmcNiR6umGnYCdXQhDcFCqAm8Ks87fMCV+z/zTloxaIZgQ==}
+
+  '@loaders.gl/schema@4.5.1':
+    resolution: {integrity: sha512-qrMqcwIHQRCfAx/zkujuI8ZfiwaOXvh82y5OXVfPkGtAw5EhLBM3fQxqdNOpfVhy0m4GCC6QvlXyurJXcx++yQ==}
 
   '@loaders.gl/terrain@4.4.4':
     resolution: {integrity: sha512-eGOwBzmI1SVsG5zDvpi5Iw6Np3JdklOOeU/AGAC/vRU/tMqIvYk9qT77mZkR71bKQXkmBEMPRzdv6je9HEFzjg==}
@@ -866,6 +872,11 @@ packages:
 
   '@loaders.gl/worker-utils@4.4.5':
     resolution: {integrity: sha512-ZQDoM6f/HpZ3Lzj6vjtPHXSvi+cUK0QG7yJz+MKWAokmeWa98WMZwswS8zkn/qNkY95rLcxh66N4Sl96+7hqAQ==}
+    peerDependencies:
+      '@loaders.gl/core': ~4.4.0
+
+  '@loaders.gl/worker-utils@4.5.1':
+    resolution: {integrity: sha512-xs6bqDMQhkU1OK9X0SKuJvx1tQCUm4GzKeNcM/cIN3HMgzPN/P6qhbkoMfIFZGKZwIOdw0sDQAOj2hSuAEoh4w==}
     peerDependencies:
       '@loaders.gl/core': ~4.4.0
 
@@ -5566,11 +5577,11 @@ snapshots:
       '@loaders.gl/worker-utils': 4.4.5(@loaders.gl/core@4.4.5)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/csv@4.4.5(@loaders.gl/core@4.4.5)':
+  '@loaders.gl/csv@4.5.1(@loaders.gl/core@4.4.5)':
     dependencies:
       '@loaders.gl/core': 4.4.5
-      '@loaders.gl/loader-utils': 4.4.5(@loaders.gl/core@4.4.5)
-      '@loaders.gl/schema': 4.4.5
+      '@loaders.gl/loader-utils': 4.5.1(@loaders.gl/core@4.4.5)
+      '@loaders.gl/schema': 4.5.1
       d3-dsv: 1.2.0
 
   '@loaders.gl/draco@4.4.5(@loaders.gl/core@4.4.5)':
@@ -5638,6 +5649,15 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
+  '@loaders.gl/loader-utils@4.5.1(@loaders.gl/core@4.4.5)':
+    dependencies:
+      '@loaders.gl/schema': 4.5.1
+      '@loaders.gl/worker-utils': 4.5.1(@loaders.gl/core@4.4.5)
+      '@probe.gl/log': 4.1.1
+      '@probe.gl/stats': 4.1.1
+    transitivePeerDependencies:
+      - '@loaders.gl/core'
+
   '@loaders.gl/math@4.4.5(@loaders.gl/core@4.4.5)':
     dependencies:
       '@loaders.gl/core': 4.4.5
@@ -5677,6 +5697,11 @@ snapshots:
       apache-arrow: 21.2.0
 
   '@loaders.gl/schema@4.4.5':
+    dependencies:
+      '@types/geojson': 7946.0.16
+      apache-arrow: 21.2.0
+
+  '@loaders.gl/schema@4.5.1':
     dependencies:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
@@ -5726,6 +5751,10 @@ snapshots:
       '@loaders.gl/core': 4.4.5
 
   '@loaders.gl/worker-utils@4.4.5(@loaders.gl/core@4.4.5)':
+    dependencies:
+      '@loaders.gl/core': 4.4.5
+
+  '@loaders.gl/worker-utils@4.5.1(@loaders.gl/core@4.4.5)':
     dependencies:
       '@loaders.gl/core': 4.4.5
 
