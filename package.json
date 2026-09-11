@@ -47,7 +47,7 @@
     "@loaders.gl/core": "^4.5.1",
     "@loaders.gl/csv": "^4.5.1",
     "@loaders.gl/tiles": "^4.5.1",
-    "@luma.gl/core": "^9.4.0",
+    "@luma.gl/core": "^9.4.1",
     "@luma.gl/webgl": "^9.4.1",
     "@react-three/drei": "^10.7.8",
     "@react-three/fiber": "^9.7.0",
