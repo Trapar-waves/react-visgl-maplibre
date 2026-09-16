@@ -209,7 +209,7 @@ importers:
         specifier: ^9.4.0
         version: 9.4.0(@arcgis/core@4.34.8)(@luma.gl/gltf@9.4.1(@luma.gl/core@9.4.1)(@luma.gl/engine@9.4.1(@luma.gl/core@9.4.1)(@luma.gl/shadertools@9.4.1(@luma.gl/core@9.4.1)))(@luma.gl/shadertools@9.4.1(@luma.gl/core@9.4.1)))(@luma.gl/shadertools@9.4.1(@luma.gl/core@9.4.1))(@luma.gl/webgl@9.4.1(@luma.gl/core@9.4.1))(@luma.gl/webgpu@9.4.1(@luma.gl/core@9.4.1)(@luma.gl/shadertools@9.4.1(@luma.gl/core@9.4.1)))(@math.gl/web-mercator@4.1.0)(maplibre-gl@6.10.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(texture-compressor@1.0.2)
       maplibre-gl:
-        specifier: ^6.9.1
+        specifier: ^6.10.0
         version: 6.10.0
       react:
         specifier: ^19.3.0
