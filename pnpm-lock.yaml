@@ -191,7 +191,7 @@ importers:
         specifier: ^4.5.1
         version: 4.5.2(@loaders.gl/core@4.5.2)
       '@loaders.gl/tiles':
-        specifier: ^4.5.1
+        specifier: ^4.5.2
         version: 4.5.2(@loaders.gl/core@4.5.2)
       '@luma.gl/core':
         specifier: ^9.4.2
