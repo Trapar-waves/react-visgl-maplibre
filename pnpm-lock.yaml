@@ -185,7 +185,7 @@ importers:
         specifier: ^4.5.2
         version: 4.5.2(@loaders.gl/core@4.5.2)(texture-compressor@1.0.2)
       '@loaders.gl/core':
-        specifier: ^4.5.1
+        specifier: ^4.5.2
         version: 4.5.2
       '@loaders.gl/csv':
         specifier: ^4.5.1
