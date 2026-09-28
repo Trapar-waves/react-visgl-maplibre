@@ -67,7 +67,7 @@
     "@maplibre/maplibre-gl-style-spec": "^26.4.4",
     "@renton/eslint-config-react": "^1.1.0",
     "@rsbuild/core": "^2.2.10",
-    "@rsbuild/plugin-react": "^2.1.0",
+    "@rsbuild/plugin-react": "^2.1.1",
     "@rsdoctor/rspack-plugin": "^1.6.4",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/react": "^19.3.0",
