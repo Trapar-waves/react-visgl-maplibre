@@ -188,8 +188,8 @@ importers:
         specifier: ^4.5.2
         version: 4.5.2
       '@loaders.gl/csv':
-        specifier: ^4.5.2
-        version: 4.5.2(@loaders.gl/core@4.5.2)
+        specifier: ^4.5.3
+        version: 4.5.3(@loaders.gl/core@4.5.2)
       '@loaders.gl/tiles':
         specifier: ^4.5.3
         version: 4.5.3(@loaders.gl/core@4.5.2)
@@ -855,8 +855,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/csv@4.5.2':
-    resolution: {integrity: sha512-Jhgh7Op+7E2HQugICl4Lea/lZDwRG/k0i6tc3iGwPiQOGclmABM1rVXH8xZUhfUGOfQlZwsCxShqJvDeHFkqYA==}
+  '@loaders.gl/csv@4.5.3':
+    resolution: {integrity: sha512-591MW2XPZfzGNO48tKL0kIqYTmTrpEwsXseH47N2vhvf2M0yETCmiaAInW4bbTeumlmP9+7FLpwsMDkLbAhjJQ==}
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
@@ -924,11 +924,6 @@ packages:
   '@loaders.gl/loader-utils@4.5.3':
     resolution: {integrity: sha512-WtClZgoOJI8quj3COwUjkYGEBMBQbbunXLc9Jyve3+5WzHN/1HkSg5n574/jSsn4sLq597C9N99/fcZp+B9h6g==}
 
-  '@loaders.gl/math@4.5.2':
-    resolution: {integrity: sha512-w1GCMMoRAPz1rDjRiOAMp/07INlFIQgbLsoKYaXfXWKid7KRG7yry/4rO9piLCvxJEm2Cn/9Omc9+6F2oroc2w==}
-    peerDependencies:
-      '@loaders.gl/core': ~4.5.0
-
   '@loaders.gl/math@4.5.3':
     resolution: {integrity: sha512-Gw/nE1o3IPwUVH/PPet9rertkyT8RVUr9SHOfXtR3vo9tK7llE4ifPpCkEHjitiE+qE5VnKLSD8pnPjsbaPyGA==}
     peerDependencies:
@@ -990,11 +985,6 @@ packages:
     peerDependenciesMeta:
       texture-compressor:
         optional: true
-
-  '@loaders.gl/tiles@4.5.2':
-    resolution: {integrity: sha512-tKUVV5FKODsCNjjZ6vrBeu3ivR6AhNvKHuhumYqm6s+mO18k3WhQnm1L1qAwlF7mzrgnDqUwjijPRkFLk3yqow==}
-    peerDependencies:
-      '@loaders.gl/core': ~4.5.0
 
   '@loaders.gl/tiles@4.5.3':
     resolution: {integrity: sha512-KLh0/cqSZvb5Nxr2vStlJJdnHVFTMAakaaKceJVUt1ESHoYkU3bvdceHWpTm8PgQx32Wzmox6GCVyLXdsEgt6A==}
@@ -5408,7 +5398,7 @@ snapshots:
   '@es-joy/jsdoccomment@0.92.0':
     dependencies:
       '@types/estree': 1.0.9
-      '@typescript-eslint/types': 8.71.0
+      '@typescript-eslint/types': 8.71.1
       comment-parser: 1.4.7
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 9.0.1
@@ -5416,7 +5406,7 @@ snapshots:
   '@es-joy/jsdoccomment@0.98.0':
     dependencies:
       '@types/estree': 1.0.9
-      '@typescript-eslint/types': 8.71.0
+      '@typescript-eslint/types': 8.71.1
       comment-parser: 1.4.9
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 9.2.2
@@ -5809,11 +5799,11 @@ snapshots:
       '@loaders.gl/worker-utils': 4.5.3(@loaders.gl/core@4.5.2)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/csv@4.5.2(@loaders.gl/core@4.5.2)':
+  '@loaders.gl/csv@4.5.3(@loaders.gl/core@4.5.2)':
     dependencies:
       '@loaders.gl/core': 4.5.2
-      '@loaders.gl/loader-utils': 4.5.2(@loaders.gl/core@4.5.2)
-      '@loaders.gl/schema': 4.5.1
+      '@loaders.gl/loader-utils': 4.5.3(@loaders.gl/core@4.5.2)
+      '@loaders.gl/schema': 4.5.3
       d3-dsv: 1.2.0
 
   '@loaders.gl/draco@4.4.5(@loaders.gl/core@4.4.5)':
@@ -5939,11 +5929,6 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
-  '@loaders.gl/math@4.5.2(@loaders.gl/core@4.5.2)':
-    dependencies:
-      '@loaders.gl/core': 4.5.2
-      '@math.gl/core': 4.1.0
-
   '@loaders.gl/math@4.5.3(@loaders.gl/core@4.5.2)':
     dependencies:
       '@loaders.gl/core': 4.5.2
@@ -6043,17 +6028,6 @@ snapshots:
       ktx-parse: 0.7.1
     optionalDependencies:
       texture-compressor: 1.0.2
-
-  '@loaders.gl/tiles@4.5.2(@loaders.gl/core@4.5.2)':
-    dependencies:
-      '@loaders.gl/core': 4.5.2
-      '@loaders.gl/loader-utils': 4.5.2(@loaders.gl/core@4.5.2)
-      '@loaders.gl/math': 4.5.2(@loaders.gl/core@4.5.2)
-      '@math.gl/core': 4.1.0
-      '@math.gl/culling': 4.1.0
-      '@math.gl/geospatial': 4.1.0
-      '@math.gl/web-mercator': 4.1.0
-      '@probe.gl/stats': 4.1.2
 
   '@loaders.gl/tiles@4.5.3(@loaders.gl/core@4.5.2)':
     dependencies:
@@ -6820,7 +6794,7 @@ snapshots:
   '@stylistic/eslint-plugin@5.10.0(eslint@10.12.0(jiti@2.7.0))':
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.12.0(jiti@2.7.0))
-      '@typescript-eslint/types': 8.71.0
+      '@typescript-eslint/types': 8.71.1
       eslint: 10.12.0(jiti@2.7.0)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -7458,8 +7432,8 @@ snapshots:
 
   '@vitest/eslint-plugin@1.6.27(@typescript-eslint/eslint-plugin@8.71.0(@typescript-eslint/parser@8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/scope-manager': 8.71.0
-      '@typescript-eslint/utils': 8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
+      '@typescript-eslint/scope-manager': 8.71.1
+      '@typescript-eslint/utils': 8.71.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
       eslint: 10.12.0(jiti@2.7.0)
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.71.0(@typescript-eslint/parser@8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
@@ -8214,7 +8188,7 @@ snapshots:
     dependencies:
       '@es-joy/jsdoccomment': 0.98.0
       '@es-joy/resolve.exports': 1.2.0
-      '@typescript-eslint/utils': 8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.71.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
       are-docs-informative: 0.1.1
       comment-parser: 1.4.9
       debug: 4.4.3
@@ -8267,8 +8241,8 @@ snapshots:
 
   eslint-plugin-perfectionist@5.12.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
-      '@typescript-eslint/types': 8.71.0
-      '@typescript-eslint/utils': 8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
+      '@typescript-eslint/types': 8.71.1
+      '@typescript-eslint/utils': 8.71.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
       natural-orderby: 5.0.0
     optionalDependencies:
       eslint: 10.12.0(jiti@2.7.0)
