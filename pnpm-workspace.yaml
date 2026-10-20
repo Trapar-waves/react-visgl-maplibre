@@ -1,14 +1,13 @@
 minimumReleaseAge: 0
-
+trustPolicy: off
 shellEmulator: true
 
-trustPolicy: off
+allowBuilds:
+  "@vaadin/vaadin-usage-statistics": false
+  core-js: true
 
 onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - "@vaadin/vaadin-usage-statistics"
   - core-js
 
-allowBuilds:
-  "@vaadin/vaadin-usage-statistics": false
-  core-js: true

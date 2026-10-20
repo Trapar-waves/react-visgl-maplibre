@@ -10,7 +10,6 @@ import { LineMaterial, LineSegments2, LineSegmentsGeometry } from "three-stdlib"
 import { deckOverlay, heatmapLayer } from "./deckgl";
 import { CommonSource } from "./source";
 
-// eslint-disable-next-line unicorn/no-top-level-side-effects -- R3F extend must run before render
 extend({ LineMaterial, LineSegments2, LineSegmentsGeometry });
 
 declare module "@react-three/fiber" {
