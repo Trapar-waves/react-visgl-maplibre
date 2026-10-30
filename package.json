@@ -61,7 +61,7 @@
     "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.549",
+    "@iconify/json": "^2.2.550",
     "@iconify/tailwind4": "^1.2.3",
     "@maplibre/maplibre-gl-style-spec": "^26.5.0",
     "@renton/eslint-config-react": "^1.2.1",
