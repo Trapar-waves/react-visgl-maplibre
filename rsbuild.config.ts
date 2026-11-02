@@ -12,8 +12,12 @@ function normalizeBasePath(): string {
   if (!raw || raw === "/") {
     return "/";
   }
-  const prefixed = raw.startsWith("/") ? raw : `/${raw}`;
-  return prefixed.endsWith("/") ? prefixed : `${prefixed}/`;
+  const prefixed = raw.startsWith("/")
+    ? raw
+    : `/${raw}`;
+  return prefixed.endsWith("/")
+    ? prefixed
+    : `${prefixed}/`;
 }
 
 const basePath = normalizeBasePath();
@@ -30,7 +34,9 @@ export default defineConfig({
   performance: {
     ...(isEnableRsdoctor && { buildCache: false }),
   },
-  plugins: [pluginReact()],
+  plugins: [
+    pluginReact(),
+  ],
   source: {
     define: publicVars,
   },
@@ -42,7 +48,11 @@ export default defineConfig({
     },
     rspack: {
       plugins: [
-        ...(isEnableTurboConsole ? [TurboConsole()] : []),
+        ...(isEnableTurboConsole
+          ? [
+              TurboConsole(),
+            ]
+          : []),
         ...(isEnableRsdoctor
           ? [
               new RsdoctorRspackPlugin({

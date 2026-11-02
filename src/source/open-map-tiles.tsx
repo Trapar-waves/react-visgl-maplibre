@@ -2,7 +2,16 @@ import { Layer, Source } from "react-map-gl/maplibre";
 
 const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
 const paint: any = {
-  "fill-extrusion-base": ["case", [">=", ["get", "zoom"], 16], ["get", "render_min_height"], 0],
+  "fill-extrusion-base": [
+    "case",
+    [
+      ">=",
+      ["get", "zoom"],
+      16,
+    ],
+    ["get", "render_min_height"],
+    0,
+  ],
   "fill-extrusion-color": [
     "interpolate",
     ["linear"],
@@ -31,7 +40,11 @@ export function OpenMapTiles() {
       url={`https://api.maptiler.com/tiles/v3/tiles.json?key=${MAPTILER_KEY}`}
     >
       <Layer
-        filter={["!=", ["get", "hide_3d"], true]}
+        filter={[
+          "!=",
+          ["get", "hide_3d"],
+          true,
+        ]}
         id="3d-buildings"
         minzoom={15}
         paint={paint}

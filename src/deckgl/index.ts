@@ -41,15 +41,21 @@ function getTooltip({ object }: PickingInfo) {
   const count = object.count;
 
   return `\
-    latitude: ${Number.isFinite(lat) ? lat.toFixed(6) : ""}
-    longitude: ${Number.isFinite(lng) ? lng.toFixed(6) : ""}
+    latitude: ${Number.isFinite(lat)
+      ? lat.toFixed(6)
+      : ""}
+    longitude: ${Number.isFinite(lng)
+      ? lng.toFixed(6)
+      : ""}
     ${count} Accidents`;
 }
 const DATA_URL = "/heatmap-data.csv";
 // eslint-disable-next-line unicorn/prefer-await -- deck.gl layer data must be loaded at module level
 const data = load(DATA_URL, CSVLoader).then((response) => {
   const responseData = response.data
-    .map((d: any) => (Number.isFinite(d.lng) ? [d.lng, d.lat] : null))
+    .map((d: any) => (Number.isFinite(d.lng)
+      ? [d.lng, d.lat]
+      : null))
     .filter(Boolean) as Array<[number, number]>;
   responseData.push(...(Array.from({ length: 10000 }, () => [11.39085 + (Math.random() - 0.5), 47.27574 + (Math.random() - 0.5)]) as Array<[number, number]>));
   return responseData;
