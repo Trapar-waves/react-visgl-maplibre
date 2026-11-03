@@ -68,7 +68,7 @@
     "@rsbuild/core": "^2.3.0",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rsdoctor/rspack-plugin": "^1.6.5",
-    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/postcss": "^4.3.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@types/three": "^0.187.0",
@@ -77,7 +77,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "mapbox-gl": "^3.34.1",
-    "tailwindcss": "^4.3.3",
+    "tailwindcss": "^4.3.4",
     "taze": "^21.3.0",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^3.0.0"
