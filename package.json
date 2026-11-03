@@ -76,7 +76,7 @@
     "eslint": "^10.14.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "mapbox-gl": "^3.34.1",
+    "mapbox-gl": "^3.34.2",
     "tailwindcss": "^4.3.4",
     "taze": "^21.3.0",
     "typescript": "^6.0.3",
