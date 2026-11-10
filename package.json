@@ -65,7 +65,7 @@
     "@iconify/tailwind4": "^1.2.3",
     "@maplibre/maplibre-gl-style-spec": "^26.6.0",
     "@renton/eslint-config-react": "^2.0.0",
-    "@rsbuild/core": "^2.3.1",
+    "@rsbuild/core": "^2.3.2",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rsdoctor/rspack-plugin": "^1.6.5",
     "@tailwindcss/postcss": "^4.3.5",
