@@ -200,8 +200,8 @@ importers:
         specifier: ^4.5.5
         version: 4.5.5(@loaders.gl/core@4.5.5)
       '@loaders.gl/tiles':
-        specifier: ^4.5.4
-        version: 4.5.4(@loaders.gl/core@4.5.5)
+        specifier: ^4.5.5
+        version: 4.5.5(@loaders.gl/core@4.5.5)
       '@luma.gl/core':
         specifier: ^9.4.2
         version: 9.4.2
@@ -942,11 +942,6 @@ packages:
   '@loaders.gl/loader-utils@4.5.5':
     resolution: {integrity: sha512-1h7hT3RwOvNCtJGlkk6ilvn4dracXgDiv4S2pDsbeNMQ4MxnnOjM+GqXN3mXSYsKq1xz4g3j1n43TCQ5MjxJsg==}
 
-  '@loaders.gl/math@4.5.4':
-    resolution: {integrity: sha512-fCLno7Jlp3cxECUSzATmlpUWw/5qQhzQvY+MPBgwWbV49EFPuWn9+qCGjg6PpqRd6/SyflJ0wstlMLyQ4jGiQw==}
-    peerDependencies:
-      '@loaders.gl/core': ~4.5.0
-
   '@loaders.gl/math@4.5.5':
     resolution: {integrity: sha512-MxIp9qGTIKw4pddp0bd0Wj0Yc2CmqxveLiMpso2ABVv5VqhaE0q3mEsDoT9vR5kftPrO0ao9yolaTveo00KX7g==}
     peerDependencies:
@@ -1008,11 +1003,6 @@ packages:
     peerDependenciesMeta:
       texture-compressor:
         optional: true
-
-  '@loaders.gl/tiles@4.5.4':
-    resolution: {integrity: sha512-ACKBIuod7SqkmdYg2dMrksb13mCp6jUzrMrmGgB1YoM34d9TAHgpTtjGRz9U4xZWwbGVZR0DzNpdmY8BPYw60Q==}
-    peerDependencies:
-      '@loaders.gl/core': ~4.5.0
 
   '@loaders.gl/tiles@4.5.5':
     resolution: {integrity: sha512-dCs1GEyCVwNC0zTM0VmG2DdI9gN5ocUtVEdCEFs1Pk6A38wUh1HdZPwDU2OSOZx4nmsnhV0fisdHODujePmVpg==}
@@ -1145,9 +1135,6 @@ packages:
 
   '@math.gl/culling@4.1.1':
     resolution: {integrity: sha512-1MEVDsJuCxRh4OXktmZKBwILDVgWdTJpic+axR7fzaPSQAuMElX8NU1C6fWbPj8fZa/ocsrD3E/1sCQZRe9eUQ==}
-
-  '@math.gl/geospatial@4.1.0':
-    resolution: {integrity: sha512-BzsUhpVvnmleyYF6qdqJIip6FtIzJmnWuPTGhlBuPzh7VBHLonCFSPtQpbkRuoyAlbSyaGXcVt6p6lm9eK2vtg==}
 
   '@math.gl/geospatial@4.1.1':
     resolution: {integrity: sha512-5hVfiS4nwUUtPmZ8L6jvuUeq+jyqLz/Z+6/KDUdtrw2GZRKgsqtAxM4E3qj/tGWdGXgxna9SgopvCVLZhi41Sw==}
@@ -5250,7 +5237,7 @@ snapshots:
       '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@4.5.5)
       '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@4.5.5)
       '@loaders.gl/schema': 4.5.4
-      '@loaders.gl/tiles': 4.5.4(@loaders.gl/core@4.5.5)
+      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@4.5.5)
       '@luma.gl/core': 9.4.2
       '@luma.gl/shadertools': 9.4.2(@luma.gl/core@9.4.2)
       '@math.gl/web-mercator': 4.1.0
@@ -5312,7 +5299,7 @@ snapshots:
       '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@4.5.5)
       '@loaders.gl/schema': 4.5.4
       '@loaders.gl/terrain': 4.5.4(@loaders.gl/core@4.5.5)
-      '@loaders.gl/tiles': 4.5.4(@loaders.gl/core@4.5.5)
+      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@4.5.5)
       '@loaders.gl/wms': 4.5.4(@loaders.gl/core@4.5.5)
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
@@ -6001,11 +5988,6 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
-  '@loaders.gl/math@4.5.4(@loaders.gl/core@4.5.5)':
-    dependencies:
-      '@loaders.gl/core': 4.5.5
-      '@math.gl/core': 4.1.0
-
   '@loaders.gl/math@4.5.5(@loaders.gl/core@4.5.5)':
     dependencies:
       '@loaders.gl/core': 4.5.5
@@ -6105,17 +6087,6 @@ snapshots:
       ktx-parse: 0.7.1
     optionalDependencies:
       texture-compressor: 1.0.2
-
-  '@loaders.gl/tiles@4.5.4(@loaders.gl/core@4.5.5)':
-    dependencies:
-      '@loaders.gl/core': 4.5.5
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@4.5.5)
-      '@loaders.gl/math': 4.5.4(@loaders.gl/core@4.5.5)
-      '@math.gl/core': 4.1.0
-      '@math.gl/culling': 4.1.0
-      '@math.gl/geospatial': 4.1.0
-      '@math.gl/web-mercator': 4.1.0
-      '@probe.gl/stats': 4.1.2
 
   '@loaders.gl/tiles@4.5.5(@loaders.gl/core@4.5.5)':
     dependencies:
@@ -6296,11 +6267,6 @@ snapshots:
     dependencies:
       '@math.gl/core': 4.1.1
       '@math.gl/types': 4.1.1
-
-  '@math.gl/geospatial@4.1.0':
-    dependencies:
-      '@math.gl/core': 4.1.0
-      '@math.gl/types': 4.1.0
 
   '@math.gl/geospatial@4.1.1':
     dependencies:
