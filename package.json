@@ -63,7 +63,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.559",
     "@iconify/tailwind4": "^1.2.3",
-    "@maplibre/maplibre-gl-style-spec": "^26.8.0",
+    "@maplibre/maplibre-gl-style-spec": "^26.9.0",
     "@renton/eslint-config-react": "^2.0.0",
     "@rsbuild/core": "^2.3.3",
     "@rsbuild/plugin-react": "^2.1.1",
