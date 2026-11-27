@@ -187,13 +187,13 @@ importers:
     dependencies:
       '@deck.gl/aggregation-layers':
         specifier: ^9.4.2
-        version: 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
+        version: 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/core':
         specifier: ^9.4.2
         version: 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/geo-layers':
         specifier: ^9.4.2
-        version: 9.4.2(cce66c9f480cf90bd008fd31f8e78a83)
+        version: 9.4.2(41bb916034658bdc2c8285fa98901171)
       '@deck.gl/mapbox':
         specifier: ^9.4.2
         version: 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@math.gl/web-mercator@4.1.1)
@@ -202,16 +202,16 @@ importers:
         version: 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/widgets@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2))(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@loaders.gl/3d-tiles':
         specifier: ^4.5.5
-        version: 4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)
+        version: 4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)
       '@loaders.gl/core':
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^5.0.1
+        version: 5.0.1
       '@loaders.gl/csv':
         specifier: ^4.5.5
-        version: 4.5.5(@loaders.gl/core@5.0.0)
+        version: 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/tiles':
         specifier: ^5.0.1
-        version: 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
+        version: 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
       '@luma.gl/core':
         specifier: ^9.4.2
         version: 9.4.2
@@ -905,8 +905,8 @@ packages:
   '@loaders.gl/core@4.5.5':
     resolution: {integrity: sha512-rmmYdPhB62htKWYDo2Ov8yRcZG2/NwBGnoidQMEnVTGfx6FX/1qkTU48+0DToxnLhJTnDjzDw+1J66bekWdZ/A==}
 
-  '@loaders.gl/core@5.0.0':
-    resolution: {integrity: sha512-j/EeAf8BiZVihSir6thcDi4hn83d0g5vF7KMR0XXLztch65O6ojtzuZe0JWXMNClwHA3qCjeZVP4Rv27gIdprA==}
+  '@loaders.gl/core@5.0.1':
+    resolution: {integrity: sha512-LzjCcof7IpgfeGBNI0Uro/kR7Sc3ivqYinfE1OpoOy+UEMhf/ATr5CqC2rmg+S2zlGbubII8mWOz0OBqWaaMOw==}
     peerDependencies:
       sharp: ^0.35.5
     peerDependenciesMeta:
@@ -1202,14 +1202,6 @@ packages:
   '@math.gl/core@4.1.1':
     resolution: {integrity: sha512-8n6D+qHxydIfwS9+4d6vib70KfzjBjbh5XtkCu/NTF1s4tAoMz+WNNbExpcLhT56NzQbvqvKb54ud3w2+oQ+mA==}
 
-  '@math.gl/core@5.0.3':
-    resolution: {integrity: sha512-BBEQPmuD6ybBSYdGrSunYp9lgiKnh4gnqIeIT9kI8yPQljydJZdQ7Vh/gijH1Bv45UT54teHp3/eAQCc7EJrBg==}
-    peerDependencies:
-      apache-arrow: '>=17.0.0'
-    peerDependenciesMeta:
-      apache-arrow:
-        optional: true
-
   '@math.gl/core@5.0.4':
     resolution: {integrity: sha512-QQvXLn/vT4IQb3JQp6BHrsCPy8faB5wwdwmhpnHhY6N3O+XBTikuJsFaplhL1k+D9Wm+eeGcQYaTY772tr9e2A==}
     peerDependencies:
@@ -1227,14 +1219,6 @@ packages:
   '@math.gl/earth@5.0.4':
     resolution: {integrity: sha512-y4ed+nmVBCxOzCNyEzzWxbIe4q5ufOirlNv/lEN34IewaPOHgJy0e3JKicHWDjGcRC0y+VQ+toYqnCxrgbZqTA==}
 
-  '@math.gl/geometry@5.0.3':
-    resolution: {integrity: sha512-xP5ER4WeXh8UulxNXS9V1msDXZB0GcgIB8dcp/BLIhPusygD1VQ52k6+XSkJb/Puabgzkc5zi5M7fjQBZlrkYQ==}
-    peerDependencies:
-      apache-arrow: '>=17.0.0'
-    peerDependenciesMeta:
-      apache-arrow:
-        optional: true
-
   '@math.gl/geometry@5.0.4':
     resolution: {integrity: sha512-hI6nmBFdUtJ4QEqhHees7bmQI5OkmbxUjA2hUPcKMERkvEF6Rvm4EHvTEUGfz6BmWqJcPPAmbP3LZEmTcQ3AIg==}
     peerDependencies:
@@ -1245,14 +1229,6 @@ packages:
 
   '@math.gl/geospatial@4.1.1':
     resolution: {integrity: sha512-5hVfiS4nwUUtPmZ8L6jvuUeq+jyqLz/Z+6/KDUdtrw2GZRKgsqtAxM4E3qj/tGWdGXgxna9SgopvCVLZhi41Sw==}
-
-  '@math.gl/geospatial@5.0.3':
-    resolution: {integrity: sha512-lQ1Uockj2xM0Nt97YwJaY4/ZnpW/BrZPoU5x2mZQ/l+aB/FChFsvi3EOPyaxpRsdSdzBpZN1qfI4Pp4t2DOYLQ==}
-    peerDependencies:
-      apache-arrow: '>=17.0.0'
-    peerDependenciesMeta:
-      apache-arrow:
-        optional: true
 
   '@math.gl/geospatial@5.0.4':
     resolution: {integrity: sha512-p8owncpso+FW2THVeZmvzId4PqskpBTraqq91Ay+XZxmEiuxBKn1PB1rte251UpImrxrUwehNKARDw5DKBKLFQ==}
@@ -1265,14 +1241,6 @@ packages:
   '@math.gl/polygon@4.1.0':
     resolution: {integrity: sha512-YA/9PzaCRHbIP5/0E9uTYrqe+jsYTQoqoDWhf6/b0Ixz8bPZBaGDEafLg3z7ffBomZLacUty9U3TlPjqMtzPjA==}
 
-  '@math.gl/sql@5.0.3':
-    resolution: {integrity: sha512-VN0pQPSqNJ1EAnbZKMir9xE9nPzBzZofW7wPtfpYVhx0XMy8//r1AFoFBafqCdQqabfZXGXlzGg/+ju1bdTnEQ==}
-    peerDependencies:
-      apache-arrow: '>=17.0.0'
-    peerDependenciesMeta:
-      apache-arrow:
-        optional: true
-
   '@math.gl/sql@5.0.4':
     resolution: {integrity: sha512-1IRf879PwuHT4ueG/UR/6UIKV8M4wfOgDs9amgqQlIe7sMtUKWebR7lgXy+rZV55eUrCoKiMLNwnSPMDByytmQ==}
     peerDependencies:
@@ -1283,9 +1251,6 @@ packages:
 
   '@math.gl/sun@4.1.0':
     resolution: {integrity: sha512-i3q6OCBLSZ5wgZVhXg+X7gsjY/TUtuFW/2KBiq/U1ypLso3S4sEykoU/MGjxUv1xiiGtr+v8TeMbO1OBIh/HmA==}
-
-  '@math.gl/tasks@5.0.3':
-    resolution: {integrity: sha512-iwUww9/COjFXmbWBWJSelwY60CxbUX1xXgo6CkGefTyLhhLEiBYxJa0NrNVQXxDPth71QRY0KO6PT15aXBOmFw==}
 
   '@math.gl/tasks@5.0.4':
     resolution: {integrity: sha512-mpek1vOsPpjqaSQ9S/R2eI2rhBAzBb7o2T/HQU7VFlldsGsgnyioqyZCt7v7trHBhfMf7ntiBsjkRvmZbyVOhg==}
@@ -4395,9 +4360,6 @@ packages:
   pnpm-workspace-yaml@1.9.1:
     resolution: {integrity: sha512-Xj/T2X6DNAWbtk/9UQ0/TJRswltiHZevmcMjqoL7WrpJi67lu3qaslU4+I+zJ8wtwqmuvAE0KkB8rbv2ZdogBg==}
 
-  polygon-clipping@0.15.7:
-    resolution: {integrity: sha512-nhfdr83ECBg6xtqOAJab1tbksbBAOMUltN60bU+llHVOL0e5Onm1WpAXXWXVB39L8AJFssoIhEVuy/S90MmotA==}
-
   polylabel@1.1.0:
     resolution: {integrity: sha512-bxaGcA40sL3d6M4hH72Z4NdLqxpXRsCFk8AITYg6x1rn1Ei3izf00UMLklerBZTO49aPA3CYrIwVulx2Bce2pA==}
 
@@ -5407,10 +5369,10 @@ snapshots:
       '@math.gl/web-mercator': 4.1.1
       d3-hexbin: 0.2.2
 
-  '@deck.gl/aggregation-layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))':
+  '@deck.gl/aggregation-layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))':
     dependencies:
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
+      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
       '@luma.gl/shadertools': 9.4.2(@luma.gl/core@9.4.2)
@@ -5427,13 +5389,13 @@ snapshots:
       '@luma.gl/webgl': 9.4.2(@luma.gl/core@9.4.2)
       esri-loader: 3.7.0
 
-  '@deck.gl/carto@9.4.2(7c0b11cdd91fd565776db1e30bd68786)':
+  '@deck.gl/carto@9.4.2(348a7f90def6b65d1ccbfe91634d788f)':
     dependencies:
       '@carto/api-client': 0.5.34
-      '@deck.gl/aggregation-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
+      '@deck.gl/aggregation-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/extensions': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/geo-layers': 9.4.2(79299d21577199bc560e0d6e0f1f5714)
+      '@deck.gl/geo-layers': 9.4.2(4799b8ee54e094925e67a6efc357694c)
       '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@4.5.5)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@loaders.gl/compression': 4.5.5(@loaders.gl/core@4.5.5)
       '@loaders.gl/core': 4.5.5
@@ -5490,21 +5452,21 @@ snapshots:
       '@luma.gl/webgl': 9.4.2(@luma.gl/core@9.4.2)
       '@math.gl/core': 4.1.1
 
-  '@deck.gl/geo-layers@9.4.2(79299d21577199bc560e0d6e0f1f5714)':
+  '@deck.gl/geo-layers@9.4.2(41bb916034658bdc2c8285fa98901171)':
     dependencies:
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/extensions': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@4.5.5)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/mesh-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)
-      '@loaders.gl/3d-tiles': 4.5.5(@loaders.gl/core@4.5.5)(texture-compressor@1.0.2)
-      '@loaders.gl/core': 4.5.5
-      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@4.5.5)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@4.5.5)
-      '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@4.5.5)
+      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
+      '@deck.gl/mesh-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)
+      '@loaders.gl/3d-tiles': 4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/terrain': 4.5.4(@loaders.gl/core@4.5.5)
-      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@4.5.5)
-      '@loaders.gl/wms': 4.5.4(@loaders.gl/core@4.5.5)
+      '@loaders.gl/terrain': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/wms': 4.5.4(@loaders.gl/core@5.0.1)
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
       '@luma.gl/gltf': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
@@ -5519,21 +5481,21 @@ snapshots:
     transitivePeerDependencies:
       - texture-compressor
 
-  '@deck.gl/geo-layers@9.4.2(cce66c9f480cf90bd008fd31f8e78a83)':
+  '@deck.gl/geo-layers@9.4.2(4799b8ee54e094925e67a6efc357694c)':
     dependencies:
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/extensions': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/mesh-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)
-      '@loaders.gl/3d-tiles': 4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@5.0.0)
+      '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@4.5.5)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
+      '@deck.gl/mesh-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)
+      '@loaders.gl/3d-tiles': 4.5.5(@loaders.gl/core@4.5.5)(texture-compressor@1.0.2)
+      '@loaders.gl/core': 4.5.5
+      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@4.5.5)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@4.5.5)
+      '@loaders.gl/mvt': 4.5.4(@loaders.gl/core@4.5.5)
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/terrain': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/wms': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/terrain': 4.5.4(@loaders.gl/core@4.5.5)
+      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@4.5.5)
+      '@loaders.gl/wms': 4.5.4(@loaders.gl/core@4.5.5)
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
       '@luma.gl/gltf': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
@@ -5577,11 +5539,11 @@ snapshots:
       '@types/geojson': 7946.0.16
       earcut: 2.2.4
 
-  '@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))':
+  '@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))':
     dependencies:
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
@@ -5618,10 +5580,10 @@ snapshots:
       - '@loaders.gl/core'
       - texture-compressor
 
-  '@deck.gl/mesh-layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.0)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)':
+  '@deck.gl/mesh-layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@5.0.1)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/gltf@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))(texture-compressor@1.0.2)':
     dependencies:
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@loaders.gl/gltf': 4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)
+      '@loaders.gl/gltf': 4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)
       '@loaders.gl/schema': 4.5.5
       '@luma.gl/core': 9.4.2
       '@luma.gl/engine': 9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))
@@ -6067,18 +6029,18 @@ snapshots:
     transitivePeerDependencies:
       - texture-compressor
 
-  '@loaders.gl/3d-tiles@4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/3d-tiles@4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)':
     dependencies:
-      '@loaders.gl/compression': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/crypto': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/draco': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/gltf': 4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)
-      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/math': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/zip': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/compression': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/crypto': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/draco': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/gltf': 4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)
+      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/math': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/tiles': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/zip': 4.5.5(@loaders.gl/core@5.0.1)
       '@math.gl/core': 4.1.1
       '@math.gl/culling': 4.1.1
       '@math.gl/geospatial': 4.1.1
@@ -6087,11 +6049,11 @@ snapshots:
     transitivePeerDependencies:
       - texture-compressor
 
-  '@loaders.gl/archives@5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/archives@5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/crypto': 5.0.1(@loaders.gl/core@5.0.0)
+      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/crypto': 5.0.1(@loaders.gl/core@5.0.1)
     transitivePeerDependencies:
       - brotli
       - fzstd
@@ -6116,11 +6078,11 @@ snapshots:
       lz4js: 0.2.0
       zstd-codec: 0.1.5
 
-  '@loaders.gl/compression@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/compression@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@types/pako': 1.0.7
       fflate: 0.7.4
       pako: 1.0.11
@@ -6131,9 +6093,9 @@ snapshots:
       lz4js: 0.2.0
       zstd-codec: 0.1.5
 
-  '@loaders.gl/compression@5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/compression@5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       compress-utils: 0.12.2
     optionalDependencies:
       brotli: 1.3.3
@@ -6157,13 +6119,13 @@ snapshots:
       '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@4.5.5)
       '@probe.gl/log': 4.1.2
 
-  '@loaders.gl/core@5.0.0':
+  '@loaders.gl/core@5.0.1':
     dependencies:
-      '@math.gl/core': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/geometry': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/geospatial': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/sql': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/tasks': 5.0.3
+      '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
+      '@math.gl/geometry': 5.0.4(apache-arrow@21.2.0)
+      '@math.gl/geospatial': 5.0.4(apache-arrow@21.2.0)
+      '@math.gl/sql': 5.0.4(apache-arrow@21.2.0)
+      '@math.gl/tasks': 5.0.4
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
       probe.gl: 5.0.0
@@ -6176,27 +6138,27 @@ snapshots:
       '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@4.5.5)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/crypto@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/crypto@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/crypto@5.0.1(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/crypto@5.0.1(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
 
-  '@loaders.gl/csv@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/csv@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
       d3-dsv: 1.2.0
 
-  '@loaders.gl/documents@5.0.1(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/documents@5.0.1(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
 
   '@loaders.gl/draco@4.4.5(@loaders.gl/core@4.4.5)':
     dependencies:
@@ -6216,13 +6178,13 @@ snapshots:
       '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@4.5.5)
       draco3d: 1.5.7
 
-  '@loaders.gl/draco@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/draco@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/schema-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/schema-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.1)
       draco3d: 1.5.7
 
   '@loaders.gl/geoarrow@4.5.4(@loaders.gl/core@4.5.5)':
@@ -6231,9 +6193,9 @@ snapshots:
       '@math.gl/polygon': 4.1.0
       apache-arrow: 21.2.0
 
-  '@loaders.gl/geoarrow@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/geoarrow@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@math.gl/polygon': 4.1.0
       apache-arrow: 21.2.0
 
@@ -6248,13 +6210,13 @@ snapshots:
       '@math.gl/polygon': 4.1.0
       pbf: 3.3.0
 
-  '@loaders.gl/gis@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/gis@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/geoarrow': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/geoarrow': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.4
-      '@loaders.gl/schema-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/schema-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@mapbox/vector-tile': 1.3.1
       '@math.gl/polygon': 4.1.0
       pbf: 3.3.0
@@ -6283,14 +6245,14 @@ snapshots:
     transitivePeerDependencies:
       - texture-compressor
 
-  '@loaders.gl/gltf@4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/gltf@4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/draco': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/draco': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/textures': 4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)
+      '@loaders.gl/textures': 4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)
       '@math.gl/core': 4.1.1
       meshoptimizer: 1.3.0
     transitivePeerDependencies:
@@ -6306,24 +6268,24 @@ snapshots:
       '@loaders.gl/core': 4.5.5
       '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@4.5.5)
 
-  '@loaders.gl/images@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/images@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
 
   '@loaders.gl/images@4.5.5(@loaders.gl/core@4.5.5)':
     dependencies:
       '@loaders.gl/core': 4.5.5
       '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@4.5.5)
 
-  '@loaders.gl/images@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/images@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
 
-  '@loaders.gl/images@5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/images@5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       zod: 4.6.7
     optionalDependencies:
@@ -6349,10 +6311,10 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
-  '@loaders.gl/loader-utils@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/loader-utils@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
       '@loaders.gl/schema': 4.5.4
-      '@loaders.gl/worker-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/worker-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@probe.gl/log': 4.1.2
       '@probe.gl/stats': 4.1.2
     transitivePeerDependencies:
@@ -6367,10 +6329,10 @@ snapshots:
     transitivePeerDependencies:
       - '@loaders.gl/core'
 
-  '@loaders.gl/loader-utils@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/loader-utils@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@probe.gl/log': 4.1.2
       '@probe.gl/stats': 4.1.2
     transitivePeerDependencies:
@@ -6381,9 +6343,9 @@ snapshots:
       '@loaders.gl/core': 4.5.5
       '@math.gl/core': 4.1.1
 
-  '@loaders.gl/math@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/math@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@math.gl/core': 4.1.1
 
   '@loaders.gl/mvt@4.5.4(@loaders.gl/core@4.5.5)':
@@ -6399,30 +6361,30 @@ snapshots:
       pbf: 3.3.0
       zod: 4.6.7
 
-  '@loaders.gl/mvt@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/mvt@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/gis': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.4
-      '@loaders.gl/schema-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/schema-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@math.gl/polygon': 4.1.0
       '@probe.gl/stats': 4.1.2
       pbf: 3.3.0
       zod: 4.6.7
 
-  '@loaders.gl/pointclouds@5.0.1(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/pointclouds@5.0.1(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@math.gl/geospatial': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
 
-  '@loaders.gl/scene@5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/scene@5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.0)
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.1)
+      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geometry': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
@@ -6448,9 +6410,9 @@ snapshots:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
 
-  '@loaders.gl/schema-utils@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/schema-utils@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@loaders.gl/schema': 4.5.4
       '@math.gl/types': 4.1.1
       '@types/geojson': 7946.0.16
@@ -6464,9 +6426,9 @@ snapshots:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
 
-  '@loaders.gl/schema-utils@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/schema-utils@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
       '@loaders.gl/schema': 4.5.5
       '@math.gl/types': 4.1.1
       '@types/geojson': 7946.0.16
@@ -6487,11 +6449,11 @@ snapshots:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
 
-  '@loaders.gl/tables@5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/tables@5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.0)
+      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.1)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geospatial': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
@@ -6513,11 +6475,11 @@ snapshots:
       '@loaders.gl/schema': 4.5.4
       '@mapbox/martini': 0.2.0
 
-  '@loaders.gl/terrain@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/terrain@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.4
       '@mapbox/martini': 0.2.0
 
@@ -6544,26 +6506,26 @@ snapshots:
     optionalDependencies:
       texture-compressor: 1.0.2
 
-  '@loaders.gl/textures@4.5.5(@loaders.gl/core@5.0.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/textures@4.5.5(@loaders.gl/core@5.0.1)(texture-compressor@1.0.2)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.5
-      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.1)
       '@math.gl/types': 4.1.1
       ktx-parse: 0.7.1
     optionalDependencies:
       texture-compressor: 1.0.2
 
-  '@loaders.gl/tiles-3d@5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
+  '@loaders.gl/tiles-3d@5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/archives': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
-      '@loaders.gl/pointclouds': 5.0.1(@loaders.gl/core@5.0.0)
-      '@loaders.gl/scene': 5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/archives': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/pointclouds': 5.0.1(@loaders.gl/core@5.0.1)
+      '@loaders.gl/scene': 5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/dggs': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/earth': 5.0.4(apache-arrow@21.2.0)
@@ -6593,24 +6555,24 @@ snapshots:
       '@math.gl/web-mercator': 4.1.1
       '@probe.gl/stats': 4.1.2
 
-  '@loaders.gl/tiles@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/tiles@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/math': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/math': 4.5.5(@loaders.gl/core@5.0.1)
       '@math.gl/core': 4.1.1
       '@math.gl/culling': 4.1.1
       '@math.gl/geospatial': 4.1.1
       '@math.gl/web-mercator': 4.1.1
       '@probe.gl/stats': 4.1.2
 
-  '@loaders.gl/tiles@5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
+  '@loaders.gl/tiles@5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
-      '@loaders.gl/tables': 5.0.1(@loaders.gl/core@5.0.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/tiles-3d': 5.0.1(@loaders.gl/core@5.0.0)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/tables': 5.0.1(@loaders.gl/core@5.0.1)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/tiles-3d': 5.0.1(@loaders.gl/core@5.0.1)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
       '@maplibre/mlt': 1.3.0
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geometry': 5.0.4(apache-arrow@21.2.0)
@@ -6640,13 +6602,13 @@ snapshots:
       '@turf/rewind': 5.1.5
       deep-strict-equal: 0.2.0
 
-  '@loaders.gl/wms@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/wms@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/images': 4.5.4(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.4
-      '@loaders.gl/xml': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/xml': 4.5.4(@loaders.gl/core@5.0.1)
       '@turf/rewind': 5.1.5
       deep-strict-equal: 0.2.0
 
@@ -6658,17 +6620,17 @@ snapshots:
     dependencies:
       '@loaders.gl/core': 4.5.5
 
-  '@loaders.gl/worker-utils@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/worker-utils@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
 
   '@loaders.gl/worker-utils@4.5.5(@loaders.gl/core@4.5.5)':
     dependencies:
       '@loaders.gl/core': 4.5.5
 
-  '@loaders.gl/worker-utils@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/worker-utils@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
+      '@loaders.gl/core': 5.0.1
 
   '@loaders.gl/xml@4.5.4(@loaders.gl/core@4.5.5)':
     dependencies:
@@ -6677,10 +6639,10 @@ snapshots:
       '@loaders.gl/schema': 4.5.4
       fast-xml-parser: 5.11.2
 
-  '@loaders.gl/xml@4.5.4(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/xml@4.5.4(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.0)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/loader-utils': 4.5.4(@loaders.gl/core@5.0.1)
       '@loaders.gl/schema': 4.5.4
       fast-xml-parser: 5.11.2
 
@@ -6693,12 +6655,12 @@ snapshots:
       jszip: 3.10.2
       md5: 2.3.0
 
-  '@loaders.gl/zip@4.5.5(@loaders.gl/core@5.0.0)':
+  '@loaders.gl/zip@4.5.5(@loaders.gl/core@5.0.1)':
     dependencies:
-      '@loaders.gl/compression': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/core': 5.0.0
-      '@loaders.gl/crypto': 4.5.5(@loaders.gl/core@5.0.0)
-      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.0)
+      '@loaders.gl/compression': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/core': 5.0.1
+      '@loaders.gl/crypto': 4.5.5(@loaders.gl/core@5.0.1)
+      '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.1)
       jszip: 3.10.2
       md5: 2.3.0
 
@@ -6823,12 +6785,6 @@ snapshots:
     dependencies:
       '@math.gl/types': 4.1.1
 
-  '@math.gl/core@5.0.3(apache-arrow@21.2.0)':
-    dependencies:
-      '@math.gl/tasks': 5.0.3
-    optionalDependencies:
-      apache-arrow: 21.2.0
-
   '@math.gl/core@5.0.4(apache-arrow@21.2.0)':
     dependencies:
       '@math.gl/tasks': 5.0.4
@@ -6856,14 +6812,6 @@ snapshots:
     transitivePeerDependencies:
       - apache-arrow
 
-  '@math.gl/geometry@5.0.3(apache-arrow@21.2.0)':
-    dependencies:
-      '@math.gl/core': 5.0.3(apache-arrow@21.2.0)
-      cdt2d: 1.0.0
-      robust-predicates: 3.0.3
-    optionalDependencies:
-      apache-arrow: 21.2.0
-
   '@math.gl/geometry@5.0.4(apache-arrow@21.2.0)':
     dependencies:
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
@@ -6877,19 +6825,6 @@ snapshots:
     dependencies:
       '@math.gl/core': 4.1.1
       '@math.gl/types': 4.1.1
-
-  '@math.gl/geospatial@5.0.3(apache-arrow@21.2.0)':
-    dependencies:
-      '@mapbox/martini': 0.2.0
-      '@math.gl/core': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/geometry': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/sql': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/tasks': 5.0.3
-      cdt2d: 1.0.0
-      polygon-clipping: 0.15.7
-      robust-predicates: 3.0.3
-    optionalDependencies:
-      apache-arrow: 21.2.0
 
   '@math.gl/geospatial@5.0.4(apache-arrow@21.2.0)':
     dependencies:
@@ -6907,14 +6842,6 @@ snapshots:
     dependencies:
       '@math.gl/core': 4.1.0
 
-  '@math.gl/sql@5.0.3(apache-arrow@21.2.0)':
-    dependencies:
-      '@math.gl/core': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/geometry': 5.0.3(apache-arrow@21.2.0)
-      '@math.gl/tasks': 5.0.3
-    optionalDependencies:
-      apache-arrow: 21.2.0
-
   '@math.gl/sql@5.0.4(apache-arrow@21.2.0)':
     dependencies:
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
@@ -6924,8 +6851,6 @@ snapshots:
       apache-arrow: 21.2.0
 
   '@math.gl/sun@4.1.0': {}
-
-  '@math.gl/tasks@5.0.3': {}
 
   '@math.gl/tasks@5.0.4': {}
 
@@ -8602,10 +8527,10 @@ snapshots:
     dependencies:
       '@deck.gl/aggregation-layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@deck.gl/layers@9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@4.5.5)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/arcgis': 9.4.2(@arcgis/core@4.34.8)(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))(@luma.gl/webgl@9.4.2(@luma.gl/core@9.4.2))
-      '@deck.gl/carto': 9.4.2(7c0b11cdd91fd565776db1e30bd68786)
+      '@deck.gl/carto': 9.4.2(348a7f90def6b65d1ccbfe91634d788f)
       '@deck.gl/core': 9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
       '@deck.gl/extensions': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
-      '@deck.gl/geo-layers': 9.4.2(79299d21577199bc560e0d6e0f1f5714)
+      '@deck.gl/geo-layers': 9.4.2(4799b8ee54e094925e67a6efc357694c)
       '@deck.gl/google-maps': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@luma.gl/core@9.4.2)(@luma.gl/webgl@9.4.2(@luma.gl/core@9.4.2))
       '@deck.gl/json': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))
       '@deck.gl/layers': 9.4.2(@deck.gl/core@9.4.2(@luma.gl/webgpu@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2))))(@loaders.gl/core@4.5.5)(@luma.gl/core@9.4.2)(@luma.gl/engine@9.4.2(@luma.gl/core@9.4.2)(@luma.gl/shadertools@9.4.2(@luma.gl/core@9.4.2)))
@@ -10364,11 +10289,6 @@ snapshots:
   pnpm-workspace-yaml@1.9.1:
     dependencies:
       yaml: 2.9.1
-
-  polygon-clipping@0.15.7:
-    dependencies:
-      robust-predicates: 3.0.3
-      splaytree: 3.2.4
 
   polylabel@1.1.0:
     dependencies:
