@@ -210,8 +210,8 @@ importers:
         specifier: ^4.5.5
         version: 4.5.5(@loaders.gl/core@5.0.2)
       '@loaders.gl/tiles':
-        specifier: ^5.0.1
-        version: 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
+        specifier: ^5.0.2
+        version: 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
       '@luma.gl/core':
         specifier: ^9.4.2
         version: 9.4.2
@@ -862,8 +862,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/archives@5.0.1':
-    resolution: {integrity: sha512-MVMZTkicHcOJnOE3Hmrc/ZnGhu/5WoFDHHfn86Yrpi8j0uV/6Z9rfMZ7kehCjaqSaBtHGeu6FZvWObUuzdysjQ==}
+  '@loaders.gl/archives@5.0.2':
+    resolution: {integrity: sha512-FHgKckKO26hfEO2OhsW7bnqIBBXdakKEzzz97M7QDfmaJGamOgUE9yjs3pFI7JFRymArm2J9Fri/JyJK9Kp4Hw==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
@@ -872,8 +872,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/compression@5.0.1':
-    resolution: {integrity: sha512-Rq0lLYxFyoRCQz6oBTJof1VYtR/JuZwJbzzFF/+unnODzOemCZdTz4znja+SfmsRShdz7Jg17GuTbCVu2wCVhw==}
+  '@loaders.gl/compression@5.0.2':
+    resolution: {integrity: sha512-xEjPYT03TuHc5qJONzWWedCSJ+opYE3PkLCJeBpCeyWF8g72wSIbQ/6PbOBQzjU6GRQI6EBslaLGhmAdZEGIuA==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
       brotli: ^1.3.2
@@ -918,8 +918,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/crypto@5.0.1':
-    resolution: {integrity: sha512-gNkZkmBes0UUf91rEZERdryRdv6mIxroXSvv7wqD9DTPTHQla5Eui5YCJEcVImB4TeJlZcXSQrpIVkcfcvRdlg==}
+  '@loaders.gl/crypto@5.0.2':
+    resolution: {integrity: sha512-UwBNdrhqqUF/kc25lwCAmouqblRVjMtXglEc9m1+nPiSM/JFr9DbnihUmow/6FdTTZjaVz74xlwEc74Gc43C0g==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
@@ -928,8 +928,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/documents@5.0.1':
-    resolution: {integrity: sha512-Y1BM2EVq89y9piX1Dm/ZZKUE5jGCvuFYht4ld+pTJvNqQvC6FZ1ga1Ou4aYRDR2J5IRLfW4n7AELZFH5NgT9Nw==}
+  '@loaders.gl/documents@5.0.2':
+    resolution: {integrity: sha512-9CJ0pd256gf3r5Ow019QT5cxPBRoSbaub8uI5W2BvpElFvJ3dpExws4htyNMT7pt0eeB9o4w3Br2Ryba11+lmg==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
@@ -978,8 +978,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/images@5.0.1':
-    resolution: {integrity: sha512-TD8DssJsGKRrcY8ZFtkHphDtdJffd2RFf/IpFcRhBK5PzYCSJ+iGJUbwtqlaXJxwKNj9YTwkl9CxPEh+tG8M0g==}
+  '@loaders.gl/images@5.0.2':
+    resolution: {integrity: sha512-nwRtqGKkMktSssfRo1Z0YP9jBp/D4i/E3pYyoGcicCmq8FXVrclBPJW4/rADV1DKEzf+EVQjACZ0g3wHFECjGw==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
       texture-compressor: ^1.0.2
@@ -1006,13 +1006,13 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/pointclouds@5.0.1':
-    resolution: {integrity: sha512-8z+sv2d1clRi3LZ1nx2OV3cHgsJfmc98Jn2fB21lxz47JBiM6tkabgjmtOVaQ//S/74K+5AdJEWNPE5yFX27xg==}
+  '@loaders.gl/pointclouds@5.0.2':
+    resolution: {integrity: sha512-08EoPyaImf5i1NYcW11FDC2Rj0TdAjeatxOx8Vqw5fpN2lf4uZq880E7KFkQ2mbazoQongZfooAwA7p5JT01wA==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
-  '@loaders.gl/scene@5.0.1':
-    resolution: {integrity: sha512-79fmFu90g33RmTDf7Qea59HZHAcO57S8YQzP2smVPLe7u6hnMFBu75uDgLSGuMApa68FToR5VTo+PsaVDSDrUA==}
+  '@loaders.gl/scene@5.0.2':
+    resolution: {integrity: sha512-YME+8wBr5C4jrdOo/5OQTP+L70a1py++RVJMQKwfpoSfakw6gWKraex8ydBQDJr5744VKcqibESpu66/zPQOrQ==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
       apache-arrow: '>= 17.0.0'
@@ -1041,8 +1041,8 @@ packages:
   '@loaders.gl/schema@4.5.5':
     resolution: {integrity: sha512-k648CEUf0lwTuYc7WxLXhA1RHYCo15S5GeWIQ2QYq5lkKQmCAWc4KJZ4lkxBoPPunVNj1PW0At5lLKkQr7vNHQ==}
 
-  '@loaders.gl/tables@5.0.1':
-    resolution: {integrity: sha512-AwPDRNOTGpRCNBqYiPrnbQUcg/qzJymRwot/brljZNVitDdnt0bHgAleVoR7Ojr6fjzjviMo7/or+bloUAIg8Q==}
+  '@loaders.gl/tables@5.0.2':
+    resolution: {integrity: sha512-n5sp4epH3dB9EL38J2pSdtIjzW2yYp+zURXgxpVORI0bBZgj0TDRnn1QZVe+Kn6e70GA+jNSq3I249uOjGmEug==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
@@ -1065,8 +1065,8 @@ packages:
       texture-compressor:
         optional: true
 
-  '@loaders.gl/tiles-3d@5.0.1':
-    resolution: {integrity: sha512-Oehr2AGDSC/De12Ycj37h+HW3UQ+Kq6cv5dgl0PtAzNnnIlclB2LbmwBvvrYVqocQCuTN32AF7KtePJ/mvM4vQ==}
+  '@loaders.gl/tiles-3d@5.0.2':
+    resolution: {integrity: sha512-JmID/tmySwfsmgnOeosxejsEIDiQKpcXZlTW2EU+8uq5VjeeEuZZfzlZP/SRWULomwFEMoiUFSndMGdfIUe/fQ==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
       apache-arrow: '>= 17.0.0'
@@ -1076,8 +1076,8 @@ packages:
     peerDependencies:
       '@loaders.gl/core': ~4.5.0
 
-  '@loaders.gl/tiles@5.0.1':
-    resolution: {integrity: sha512-6SVS0cMfn+8iZdyfQ/DuUFOs7Yq1A/WhbQ9rAjEL3NvjpWdbfccuh2ujLex0KAwdUaIpWhzi8qkb9bfLyS1A2Q==}
+  '@loaders.gl/tiles@5.0.2':
+    resolution: {integrity: sha512-OPGHjFHTKW65S1k5rJQYEI+ak5hVihxBS9G67TCRofBYRlDBfB/GQt6cXk5WJdSXbx8xqB1BTi62s2hxFjyJvQ==}
     peerDependencies:
       '@loaders.gl/core': ~5.0.0-alpha.0
 
@@ -6049,11 +6049,11 @@ snapshots:
     transitivePeerDependencies:
       - texture-compressor
 
-  '@loaders.gl/archives@5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/archives@5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
       '@loaders.gl/core': 5.0.2
-      '@loaders.gl/crypto': 5.0.1(@loaders.gl/core@5.0.2)
+      '@loaders.gl/crypto': 5.0.2(@loaders.gl/core@5.0.2)
     transitivePeerDependencies:
       - brotli
       - fzstd
@@ -6093,7 +6093,7 @@ snapshots:
       lz4js: 0.2.0
       zstd-codec: 0.1.5
 
-  '@loaders.gl/compression@5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/compression@5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
       '@loaders.gl/core': 5.0.2
       compress-utils: 0.12.2
@@ -6145,7 +6145,7 @@ snapshots:
       '@loaders.gl/worker-utils': 4.5.5(@loaders.gl/core@5.0.2)
       '@types/crypto-js': 4.2.2
 
-  '@loaders.gl/crypto@5.0.1(@loaders.gl/core@5.0.2)':
+  '@loaders.gl/crypto@5.0.2(@loaders.gl/core@5.0.2)':
     dependencies:
       '@loaders.gl/core': 5.0.2
 
@@ -6156,7 +6156,7 @@ snapshots:
       '@loaders.gl/schema': 4.5.5
       d3-dsv: 1.2.0
 
-  '@loaders.gl/documents@5.0.1(@loaders.gl/core@5.0.2)':
+  '@loaders.gl/documents@5.0.2(@loaders.gl/core@5.0.2)':
     dependencies:
       '@loaders.gl/core': 5.0.2
 
@@ -6283,7 +6283,7 @@ snapshots:
       '@loaders.gl/core': 5.0.2
       '@loaders.gl/loader-utils': 4.5.5(@loaders.gl/core@5.0.2)
 
-  '@loaders.gl/images@5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/images@5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
     dependencies:
       '@loaders.gl/core': 5.0.2
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
@@ -6374,17 +6374,17 @@ snapshots:
       pbf: 3.3.0
       zod: 4.6.7
 
-  '@loaders.gl/pointclouds@5.0.1(@loaders.gl/core@5.0.2)':
+  '@loaders.gl/pointclouds@5.0.2(@loaders.gl/core@5.0.2)':
     dependencies:
       '@loaders.gl/core': 5.0.2
       '@math.gl/geospatial': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
 
-  '@loaders.gl/scene@5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
+  '@loaders.gl/scene@5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)':
     dependencies:
       '@loaders.gl/core': 5.0.2
-      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.2)
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/documents': 5.0.2(@loaders.gl/core@5.0.2)
+      '@loaders.gl/images': 5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geometry': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
@@ -6449,11 +6449,11 @@ snapshots:
       '@types/geojson': 7946.0.16
       apache-arrow: 21.2.0
 
-  '@loaders.gl/tables@5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
+  '@loaders.gl/tables@5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
       '@loaders.gl/core': 5.0.2
-      '@loaders.gl/documents': 5.0.1(@loaders.gl/core@5.0.2)
+      '@loaders.gl/documents': 5.0.2(@loaders.gl/core@5.0.2)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geospatial': 5.0.4(apache-arrow@21.2.0)
       apache-arrow: 21.2.0
@@ -6518,14 +6518,14 @@ snapshots:
     optionalDependencies:
       texture-compressor: 1.0.2
 
-  '@loaders.gl/tiles-3d@5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
+  '@loaders.gl/tiles-3d@5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/archives': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/archives': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
       '@loaders.gl/core': 5.0.2
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
-      '@loaders.gl/pointclouds': 5.0.1(@loaders.gl/core@5.0.2)
-      '@loaders.gl/scene': 5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/images': 5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/pointclouds': 5.0.2(@loaders.gl/core@5.0.2)
+      '@loaders.gl/scene': 5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/dggs': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/earth': 5.0.4(apache-arrow@21.2.0)
@@ -6566,13 +6566,13 @@ snapshots:
       '@math.gl/web-mercator': 4.1.1
       '@probe.gl/stats': 4.1.2
 
-  '@loaders.gl/tiles@5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
+  '@loaders.gl/tiles@5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)':
     dependencies:
-      '@loaders.gl/compression': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/compression': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
       '@loaders.gl/core': 5.0.2
-      '@loaders.gl/images': 5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
-      '@loaders.gl/tables': 5.0.1(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
-      '@loaders.gl/tiles-3d': 5.0.1(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
+      '@loaders.gl/images': 5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(texture-compressor@1.0.2)
+      '@loaders.gl/tables': 5.0.2(@loaders.gl/core@5.0.2)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(zstd-codec@0.1.5)
+      '@loaders.gl/tiles-3d': 5.0.2(@loaders.gl/core@5.0.2)(apache-arrow@21.2.0)(brotli@1.3.3)(lz4js@0.2.0)(snappyjs@0.6.1)(texture-compressor@1.0.2)(zstd-codec@0.1.5)
       '@maplibre/mlt': 1.3.0
       '@math.gl/core': 5.0.4(apache-arrow@21.2.0)
       '@math.gl/geometry': 5.0.4(apache-arrow@21.2.0)
